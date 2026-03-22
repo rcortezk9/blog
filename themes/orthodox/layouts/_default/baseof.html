@@ -14,7 +14,7 @@
 <body>
   <header class="site-header">
     <nav class="site-nav">
-      <a class="site-name" href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
+      <a class="site-name" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
       <div class="nav-links">
         <a href="{{ "/posts/" | relURL }}">Posts</a>
         <a href="{{ "/books/" | relURL }}">Books</a>
