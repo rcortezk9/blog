@@ -1,0 +1,36 @@
+{{ define "main" }}
+<article class="book-wrapper">
+
+  <div class="book-content-wrap">
+
+    <header class="book-header">
+      <div class="book-series-label">{{ .Params.series }}{{ with .Params.chapter }} &mdash; {{ . }}{{ end }}</div>
+      <h1 class="post-title">{{ .Title }}</h1>
+
+      {{/* Scripture pills */}}
+      {{ with .Params.primary_scripture }}
+      <div class="scripture-pills">
+        <span class="pills-label">Key Scriptures:</span>
+        {{ range . }}
+        <span class="pill pill-scripture">{{ . }}</span>
+        {{ end }}
+      </div>
+      {{ end }}
+
+      {{/* Tags */}}
+      {{ with .Params.tags }}
+      <div class="tag-pills">
+        {{ range . }}
+        <span class="pill pill-tag">{{ . }}</span>
+        {{ end }}
+      </div>
+      {{ end }}
+    </header>
+
+    <div class="post-body book-body">
+      {{ .Content }}
+    </div>
+
+  </div>
+</article>
+{{ end }}

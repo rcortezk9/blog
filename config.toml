@@ -1,0 +1,16 @@
+baseURL = "https://rcortezk9.github.io/blog/"
+languageCode = "en-us"
+title = "The Catechumen's Journal"
+theme = "orthodox"
+
+[params]
+  tagline = "Notes from the journey into Orthodoxy"
+  author  = ""
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel   = 4
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

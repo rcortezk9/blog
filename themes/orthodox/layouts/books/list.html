@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="list-page">
+  <h1 class="list-title">Reading Notes</h1>
+  {{ with .Content }}<div class="list-intro">{{ . }}</div>{{ end }}
+
+  <div class="post-list">
+    {{ range .Pages }}
+    <article class="post-card book-card">
+      <div class="book-series-label">{{ .Params.series }}{{ with .Params.chapter }} &mdash; {{ . }}{{ end }}</div>
+      <h2 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      <div class="card-meta">
+        {{ with .Date }}<span class="meta-item">{{ .Format "January 2, 2006" }}</span>{{ end }}
+      </div>
+      {{ with .Params.tags }}
+      <div class="tag-pills">
+        {{ range . }}
+        <span class="pill pill-tag">{{ . }}</span>
+        {{ end }}
+      </div>
+      {{ end }}
+      {{ with .Params.description }}<p class="card-summary">{{ . }}</p>{{ end }}
+      <a class="read-more" href="{{ .Permalink }}">Read &rarr;</a>
+    </article>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,564 @@
+/* ============================================================
+   Orthodox / Byzantine Aesthetic — Main Stylesheet
+   Palette: parchment bg, dark-brown text, Byzantine red heads,
+            dark gold accents, light-gold borders
+   ============================================================ */
+
+:root {
+  --bg:          #F7F3E9;
+  --text:        #2C1810;
+  --heading:     #8B1A1A;
+  --accent:      #B8860B;
+  --border:      #C4A35A;
+  --scripture-bg:#FAF6EE;
+  --transcript-bg:#F0EBE0;
+  --muted:       #6B5744;
+  --tag-bg:      #FBF5E6;
+  --max-width:   750px;
+  --font-body:   'EB Garamond', Georgia, serif;
+  --font-head:   'Cinzel', 'Trajan Pro', serif;
+}
+
+/* ---- Reset & Base ---- */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { font-size: 18px; scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  line-height: 1.75;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+img { max-width: 100%; height: auto; }
+
+/* ---- Site Header / Nav ---- */
+.site-header {
+  border-bottom: 2px solid var(--border);
+  padding: 1.2rem 2rem 0.8rem;
+  background: var(--bg);
+}
+
+.site-nav {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.site-name {
+  font-family: var(--font-head);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--heading);
+  letter-spacing: 0.04em;
+}
+
+.site-name:hover { text-decoration: none; color: var(--accent); }
+
+.nav-links { display: flex; gap: 1.5rem; }
+.nav-links a {
+  font-family: var(--font-head);
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+.nav-links a:hover { color: var(--heading); text-decoration: none; }
+
+.site-tagline {
+  text-align: center;
+  font-style: italic;
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+
+/* ---- Main Layout ---- */
+.site-main {
+  flex: 1;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 2rem 3rem;
+}
+
+/* ---- Footer ---- */
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem 2rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+.footer-copy { margin-top: 0.3rem; font-size: 0.8rem; }
+
+/* ---- Post Wrapper (article + sidebar) ---- */
+.post-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.5rem;
+  position: relative;
+}
+
+.post-content-wrap {
+  flex: 1;
+  min-width: 0;
+  max-width: var(--max-width);
+}
+
+/* ---- TOC Sidebar ---- */
+.toc-sidebar {
+  display: none; /* hidden on small screens */
+  width: 220px;
+  flex-shrink: 0;
+  order: 2;
+}
+
+.toc-inner {
+  position: sticky;
+  top: 2rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1rem 1.2rem;
+  background: var(--scripture-bg);
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+.toc-title {
+  font-family: var(--font-head);
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--heading);
+  margin-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.4rem;
+}
+
+.toc-inner nav ul { list-style: none; padding-left: 0; }
+.toc-inner nav ul ul { padding-left: 0.9rem; }
+.toc-inner nav li { margin: 0.2rem 0; }
+.toc-inner nav a { color: var(--muted); font-size: 0.8rem; }
+.toc-inner nav a:hover { color: var(--heading); }
+
+@media (min-width: 1100px) {
+  .toc-sidebar { display: block; }
+}
+
+/* ---- Post Header ---- */
+.post-header {
+  border-bottom: 2px solid var(--border);
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.post-title {
+  font-family: var(--font-head);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--heading);
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  letter-spacing: 0.02em;
+}
+
+.post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.2rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-bottom: 1rem;
+}
+
+.meta-label {
+  font-family: var(--font-head);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--border);
+  margin-right: 0.3rem;
+}
+
+/* ---- Pill badges ---- */
+.scripture-pills, .tag-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.7rem;
+  align-items: center;
+}
+
+.pills-label {
+  font-family: var(--font-head);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin-right: 0.3rem;
+}
+
+.pill {
+  display: inline-block;
+  border-radius: 20px;
+  padding: 0.15rem 0.65rem;
+  font-size: 0.78rem;
+  line-height: 1.6;
+  white-space: nowrap;
+}
+
+.pill-scripture {
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  background: var(--tag-bg);
+  font-style: italic;
+}
+
+.pill-tag {
+  border: 1px solid var(--border);
+  color: var(--muted);
+  background: var(--tag-bg);
+}
+
+/* ---- Post Body — Typography ---- */
+.post-body {
+  font-size: 1.05rem;
+  line-height: 1.85;
+}
+
+.post-body h1 {
+  font-family: var(--font-head);
+  font-size: 1.8rem;
+  color: var(--heading);
+  margin: 2.5rem 0 1rem;
+  letter-spacing: 0.02em;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.5rem;
+}
+
+.post-body h2 {
+  font-family: var(--font-head);
+  font-size: 1.4rem;
+  color: var(--heading);
+  margin: 2.5rem 0 0.8rem;
+  letter-spacing: 0.02em;
+  border-top: 2px solid var(--border);
+  padding-top: 1rem;
+}
+
+/* Main Point headings (### Main Point N:) */
+.post-body h3 {
+  font-family: var(--font-head);
+  font-size: 1.15rem;
+  color: var(--heading);
+  margin: 2rem 0 0.6rem;
+  border-top: 1px solid var(--border);
+  padding-top: 0.8rem;
+  letter-spacing: 0.02em;
+}
+
+.post-body h4 {
+  font-family: var(--font-head);
+  font-size: 0.95rem;
+  color: var(--muted);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin: 1.5rem 0 0.5rem;
+}
+
+.post-body p { margin: 0 0 1.1rem; }
+
+/* Bold labels like "**Core Argument:**" */
+.post-body strong {
+  font-weight: 600;
+  color: var(--text);
+}
+
+/* Italic — Greek/Latin phrases */
+.post-body em {
+  font-style: italic;
+  color: var(--muted);
+  font-size: 0.97em;
+}
+
+/* ---- Blockquotes — Scripture callouts ---- */
+.post-body blockquote {
+  border-left: 4px solid var(--accent);
+  background: var(--scripture-bg);
+  margin: 1.5rem 0;
+  padding: 1rem 1.4rem;
+  font-style: italic;
+  color: var(--text);
+  border-radius: 0 4px 4px 0;
+}
+
+.post-body blockquote p { margin: 0; }
+
+/* ---- Tables ---- */
+.post-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.92rem;
+}
+
+.post-body th {
+  background: var(--heading);
+  color: #F7F3E9;
+  font-family: var(--font-head);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.6rem 1rem;
+  text-align: left;
+}
+
+.post-body td {
+  border: 1px solid var(--border);
+  padding: 0.55rem 1rem;
+  vertical-align: top;
+}
+
+.post-body tr:nth-child(even) td { background: var(--scripture-bg); }
+
+/* ---- Ordered & Unordered lists ---- */
+.post-body ul, .post-body ol {
+  margin: 0 0 1.1rem 1.6rem;
+}
+
+.post-body li { margin-bottom: 0.4rem; }
+
+/* Numbered reflection questions — styled with larger counters */
+.post-body > ol > li {
+  padding-left: 0.5rem;
+}
+
+/* ---- Horizontal rules ---- */
+.post-body hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2.5rem 0;
+}
+
+/* ---- Video Transcript Section ---- */
+/* The h2 "## Video Transcript" gets styled normally.
+   Paragraphs beginning with [M:SS] are targeted by JS and
+   given the transcript-line class. */
+.transcript-line {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  background: var(--transcript-bg);
+  border-left: 3px solid var(--border);
+  margin: 0.2rem 0;
+  padding: 0.2rem 0.8rem;
+  color: var(--text);
+}
+
+.ts {
+  color: var(--accent);
+  font-weight: 600;
+  margin-right: 0.5rem;
+  font-size: 0.82rem;
+}
+
+/* ---- Progressive Understanding cards ---- */
+/* Level N — Bold: targets "**Level N — ...**" bold opening lines  */
+/* We target the <p> that starts with <strong>Level */
+.post-body p strong:first-child {
+  display: inline-block;
+}
+
+/* Wrap the progressive understanding section in a visual block
+   by targeting h2 following "## Progressive Understanding" */
+/* Since we can't use CSS to select "following content of h2",
+   we style the <p>s immediately following with a left bar
+   using a more general approach: look for bold that starts Level */
+
+/* Target paragraphs in the Progressive Understanding section.
+   We use a data attribute set by JS (see script below in single.html) */
+.level-block {
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  background: var(--scripture-bg);
+  padding: 1rem 1.3rem;
+  margin: 1rem 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.level-block strong:first-child {
+  font-family: var(--font-head);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--heading);
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+/* ---- Homepage ---- */
+.home-page { max-width: var(--max-width); }
+
+.home-intro {
+  font-size: 1.1rem;
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 2rem;
+}
+
+.home-intro h1 {
+  font-family: var(--font-head);
+  font-size: 2rem;
+  color: var(--heading);
+  margin-bottom: 0.8rem;
+}
+
+.section-heading {
+  font-family: var(--font-head);
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin-bottom: 1.5rem;
+}
+
+/* ---- Post cards (list + homepage) ---- */
+.post-list { display: flex; flex-direction: column; gap: 2rem; }
+
+.post-card {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1.5rem 1.8rem;
+  background: var(--scripture-bg);
+}
+
+.card-title {
+  font-family: var(--font-head);
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
+}
+
+.card-title a { color: var(--heading); }
+.card-title a:hover { color: var(--accent); text-decoration: none; }
+
+.card-meta {
+  font-size: 0.83rem;
+  color: var(--muted);
+  margin-bottom: 0.6rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.card-summary {
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin: 0.8rem 0;
+  line-height: 1.6;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 0.8rem;
+  font-family: var(--font-head);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--accent);
+}
+
+/* ---- List page ---- */
+.list-page { max-width: var(--max-width); }
+
+.list-title {
+  font-family: var(--font-head);
+  font-size: 1.6rem;
+  color: var(--heading);
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.5rem;
+}
+
+/* ---- Book Section ---- */
+.book-wrapper {
+  max-width: var(--max-width);
+}
+
+.book-content-wrap {
+  max-width: var(--max-width);
+}
+
+.book-series-label {
+  font-family: var(--font-head);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin-bottom: 0.6rem;
+}
+
+.book-header {
+  border-bottom: 2px solid var(--border);
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.book-card .book-series-label {
+  margin-bottom: 0.3rem;
+}
+
+/* Book body prose — softer heading treatment, no top borders */
+.book-body h2 {
+  font-family: var(--font-head);
+  font-size: 1.25rem;
+  color: var(--heading);
+  margin: 2.5rem 0 0.8rem;
+  letter-spacing: 0.02em;
+  border-top: none;
+  padding-top: 0;
+}
+
+.book-body h3 {
+  font-family: var(--font-head);
+  font-size: 1.05rem;
+  color: var(--muted);
+  margin: 2rem 0 0.5rem;
+  border-top: none;
+  padding-top: 0;
+  font-style: italic;
+  letter-spacing: 0.01em;
+}
+
+/* Source credit line at end of book post */
+.book-body .book-source {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.88rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+/* ---- Mobile ---- */
+@media (max-width: 700px) {
+  html { font-size: 16px; }
+  .site-main { padding: 1.5rem 1rem 2rem; }
+  .site-header { padding: 1rem 1rem 0.6rem; }
+  .post-title { font-size: 1.5rem; }
+  .post-body h2 { font-size: 1.2rem; }
+  .post-body h3 { font-size: 1rem; }
+  .nav-links { gap: 1rem; }
+}

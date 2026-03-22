@@ -1,0 +1,60 @@
+{{ define "main" }}
+<div class="home-page">
+
+  <div class="home-intro">
+    {{ .Content }}
+  </div>
+
+  <section class="recent-posts">
+    <h2 class="section-heading">Recent Posts</h2>
+    <div class="post-list">
+      {{ range (where .Site.RegularPages "Type" "posts") }}
+      <article class="post-card">
+        <h3 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        <div class="card-meta">
+          {{ with .Date }}<span class="meta-item">{{ .Format "January 2, 2006" }}</span>{{ end }}
+          {{ with .Params.theological_position }}<span class="meta-item">{{ . }}</span>{{ end }}
+        </div>
+        {{ with .Params.tags }}
+        <div class="tag-pills">
+          {{ range . }}
+          <span class="pill pill-tag">{{ . }}</span>
+          {{ end }}
+        </div>
+        {{ end }}
+        {{ with .Params.description }}<p class="card-summary">{{ . }}</p>{{ end }}
+        <a class="read-more" href="{{ .Permalink }}">Read analysis &rarr;</a>
+      </article>
+      {{ end }}
+    </div>
+  </section>
+
+  {{ $books := where .Site.RegularPages "Type" "books" }}
+  {{ if $books }}
+  <section class="recent-posts">
+    <h2 class="section-heading">Reading Notes</h2>
+    <div class="post-list">
+      {{ range $books }}
+      <article class="post-card book-card">
+        <div class="book-series-label">{{ .Params.series }}{{ with .Params.chapter }} &mdash; {{ . }}{{ end }}</div>
+        <h3 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        <div class="card-meta">
+          {{ with .Date }}<span class="meta-item">{{ .Format "January 2, 2006" }}</span>{{ end }}
+        </div>
+        {{ with .Params.tags }}
+        <div class="tag-pills">
+          {{ range . }}
+          <span class="pill pill-tag">{{ . }}</span>
+          {{ end }}
+        </div>
+        {{ end }}
+        {{ with .Params.description }}<p class="card-summary">{{ . }}</p>{{ end }}
+        <a class="read-more" href="{{ .Permalink }}">Read &rarr;</a>
+      </article>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+</div>
+{{ end }}
