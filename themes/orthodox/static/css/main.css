@@ -542,6 +542,30 @@ img { max-width: 100%; height: auto; }
   letter-spacing: 0.01em;
 }
 
+/* Section divider in book posts — ornamental cross between body and source credit */
+.book-body hr {
+  border: none;
+  margin: 2.5rem auto;
+  text-align: center;
+  overflow: visible;
+  height: 0;
+  border-top: 1px solid var(--border);
+  position: relative;
+}
+
+.book-body hr::after {
+  content: '✦  ✝  ✦';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--bg);
+  padding: 0 1rem;
+  color: var(--border);
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+}
+
 /* Source credit line at end of book post */
 .book-body .book-source {
   margin-top: 3rem;

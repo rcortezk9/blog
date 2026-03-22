@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Parchment background -->
+  <rect width="32" height="32" rx="4" fill="#F7F3E9"/>
+  <!-- Orthodox 8-pointed cross — Byzantine red -->
+  <!-- Vertical bar -->
+  <rect x="14" y="3" width="4" height="26" rx="1" fill="#8B1A1A"/>
+  <!-- Main horizontal bar -->
+  <rect x="4" y="13" width="24" height="4" rx="1" fill="#8B1A1A"/>
+  <!-- Upper title bar (INRI bar) -->
+  <rect x="9" y="7" width="14" height="3" rx="1" fill="#8B1A1A"/>
+  <!-- Diagonal footrest: lower-left to upper-right -->
+  <line x1="7" y1="26" x2="25" y2="21" stroke="#8B1A1A" stroke-width="3" stroke-linecap="round"/>
+</svg>
