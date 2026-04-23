@@ -19,6 +19,18 @@
   --font-head:   'Cinzel', 'Trajan Pro', serif;
 }
 
+html[data-theme="dark"] {
+  --bg:           #1A0F08;
+  --text:         #E8D5B0;
+  --heading:      #D4706A;
+  --accent:       #D4A843;
+  --border:       #5A3E22;
+  --scripture-bg: #221510;
+  --transcript-bg:#1E130C;
+  --muted:        #A08060;
+  --tag-bg:       #241A10;
+}
+
 /* ---- Reset & Base ---- */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -32,6 +44,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  transition: background 0.25s, color 0.25s;
 }
 
 a { color: var(--accent); text-decoration: none; }
@@ -74,6 +87,19 @@ img { max-width: 100%; height: auto; }
   text-transform: uppercase;
 }
 .nav-links a:hover { color: var(--heading); text-decoration: none; }
+
+.theme-toggle {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  transition: color 0.2s, border-color 0.2s;
+}
+.theme-toggle:hover { color: var(--heading); border-color: var(--accent); }
 
 .site-tagline {
   text-align: center;

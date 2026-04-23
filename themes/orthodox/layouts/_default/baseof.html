@@ -10,6 +10,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
   <link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}">
   <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+  <script>
+    (function() {
+      var saved = localStorage.getItem('theme');
+      var pref = (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : saved;
+      if (pref === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+  </script>
 </head>
 <body>
   <header class="site-header">
@@ -18,6 +25,7 @@
       <div class="nav-links">
         <a href="{{ "posts/" | relURL }}">Posts</a>
         <a href="{{ "books/" | relURL }}">Books</a>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">&#9728;</button>
       </div>
     </nav>
     {{ if .Site.Params.tagline }}
@@ -35,5 +43,28 @@
       <p class="footer-copy">&copy; {{ now.Format "2006" }}{{ with .Site.Params.author }} {{ . }}{{ end }}</p>
     </div>
   </footer>
+  <script>
+    (function() {
+      var btn = document.getElementById('theme-toggle');
+      var html = document.documentElement;
+      function sync() {
+        var dark = html.getAttribute('data-theme') === 'dark';
+        btn.innerHTML = dark ? '&#9789;' : '&#9728;';
+        btn.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+      }
+      sync();
+      btn.addEventListener('click', function() {
+        var dark = html.getAttribute('data-theme') === 'dark';
+        if (dark) {
+          html.removeAttribute('data-theme');
+          localStorage.setItem('theme', 'light');
+        } else {
+          html.setAttribute('data-theme', 'dark');
+          localStorage.setItem('theme', 'dark');
+        }
+        sync();
+      });
+    })();
+  </script>
 </body>
 </html>
