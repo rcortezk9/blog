@@ -20,15 +20,15 @@
 }
 
 html[data-theme="dark"] {
-  --bg:           #1A0F08;
-  --text:         #E8D5B0;
-  --heading:      #D4706A;
-  --accent:       #D4A843;
-  --border:       #5A3E22;
-  --scripture-bg: #221510;
-  --transcript-bg:#1E130C;
-  --muted:        #A08060;
-  --tag-bg:       #241A10;
+  --bg:           #1a1614;
+  --text:         #e8ddd0;
+  --heading:      #d9bc84;
+  --accent:       #c9a96e;
+  --border:       #3d3530;
+  --scripture-bg: #231f1c;
+  --transcript-bg:#13110f;
+  --muted:        #9e8e7e;
+  --tag-bg:       #231f1c;
 }
 
 /* ---- Reset & Base ---- */
