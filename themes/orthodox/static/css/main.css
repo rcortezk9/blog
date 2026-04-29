@@ -20,15 +20,15 @@
 }
 
 html[data-theme="dark"] {
-  --bg:           #1a1614;
-  --text:         #e8ddd0;
+  --bg:           #1a0f08;
+  --text:         #e8d5b0;
   --heading:      #d9bc84;
   --accent:       #c9a96e;
-  --border:       #3d3530;
-  --scripture-bg: #231f1c;
-  --transcript-bg:#13110f;
-  --muted:        #9e8e7e;
-  --tag-bg:       #231f1c;
+  --border:       #3d2e18;
+  --scripture-bg: #221510;
+  --transcript-bg:#13100a;
+  --muted:        #9e8060;
+  --tag-bg:       #221510;
 }
 
 /* ---- Reset & Base ---- */
