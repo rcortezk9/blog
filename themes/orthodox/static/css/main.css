@@ -149,6 +149,7 @@ img { max-width: 100%; height: auto; }
   width: 220px;
   flex-shrink: 0;
   order: 2;
+  align-self: stretch; /* lets toc-inner sticky-scroll the full article height */
 }
 
 .toc-inner {
