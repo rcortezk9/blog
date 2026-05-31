@@ -1,6 +1,6 @@
 ---
 title: "Israel, the Church, and the New Covenant: A Series Introduction"
-date: 2026-05-31
+date: 2026-05-31T04:00:00
 draft: false
 description: "Why a question about theology became a crisis of conscience, and where the Orthodox tradition was already waiting with the answer."
 summary: "A nineteenth-century theological system has become the assumed framework for how millions of Christians read the Old Testament, interpret prophecy, and form their political obligations. It calls itself biblical Christianity. It is not. This series is the story of finding the tradition that had been holding the honest answer for two thousand years."
