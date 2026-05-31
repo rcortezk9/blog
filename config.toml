@@ -3,6 +3,10 @@ languageCode = "en-us"
 title = "The Catechumen's Journal"
 theme = "orthodox"
 
+[taxonomies]
+  tag    = "tags"
+  series = "series"
+
 [params]
   tagline = "Notes from the journey into Orthodoxy"
   author  = ""

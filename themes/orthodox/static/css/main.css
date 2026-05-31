@@ -603,6 +603,14 @@ img { max-width: 100%; height: auto; }
   font-style: italic;
 }
 
+/* ---- Series index ---- */
+.series-intro,
+.series-part-count {
+  color: var(--muted);
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
 /* ---- Series navigation ---- */
 .series-nav {
   display: flex;

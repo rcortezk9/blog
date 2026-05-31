@@ -9,7 +9,8 @@ speaker: "Corpus synthesis"
 channel: "Corpus synthesis"
 theological_position: Eastern Orthodox
 word_count: "~1000"
-series: "Israel, the Church, and the New Covenant"
+series:
+  - "Israel, the Church, and the New Covenant"
 series_prev: "/posts/israel-the-church-part-2-covenant-people/"
 primary_scripture:
   - Romans 11:18-36

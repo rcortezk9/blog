@@ -9,7 +9,8 @@ speaker: "Corpus synthesis"
 channel: "Corpus synthesis"
 theological_position: Eastern Orthodox
 word_count: "~920"
-series: "Israel, the Church, and the New Covenant"
+series:
+  - "Israel, the Church, and the New Covenant"
 series_prev: "/posts/israel-the-church-part-1-what-changed-and-why/"
 series_next: "/posts/israel-the-church-part-3-what-we-hold/"
 primary_scripture:

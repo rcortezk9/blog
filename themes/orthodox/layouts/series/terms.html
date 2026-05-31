@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="list-page">
+  <h1 class="list-title">Series</h1>
+  <p class="series-intro">Multi-part series on specific theological themes.</p>
+
+  <div class="post-list">
+    {{ range .Pages }}
+    <article class="post-card series-card">
+      <h2 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      <div class="card-meta">
+        <span class="meta-item"><span class="meta-label">Parts</span> {{ len .Pages }}</span>
+      </div>
+      {{ with .Content }}<div class="card-summary">{{ . }}</div>{{ end }}
+      <a class="read-more" href="{{ .Permalink }}">View series &rarr;</a>
+    </article>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

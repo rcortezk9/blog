@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="list-page">
+  <h1 class="list-title">{{ .Title }}</h1>
+  <p class="series-part-count">{{ len .Pages }} {{ if eq (len .Pages) 1 }}part{{ else }}parts{{ end }}</p>
+
+  <div class="post-list">
+    {{ range .Pages.ByDate.Reverse }}
+    <article class="post-card">
+      <h2 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      <div class="card-meta">
+        {{ with .Date }}<span class="meta-item"><span class="meta-label">Date</span> {{ .Format "January 2, 2006" }}</span>{{ end }}
+        {{ with .Params.word_count }}<span class="meta-item"><span class="meta-label">Length</span> {{ . }} words</span>{{ end }}
+      </div>
+      {{ with .Summary }}<p class="card-summary">{{ . }}</p>{{ end }}
+      <a class="read-more" href="{{ .Permalink }}">Read &rarr;</a>
+    </article>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
