@@ -603,6 +603,34 @@ img { max-width: 100%; height: auto; }
   font-style: italic;
 }
 
+/* ---- Series navigation ---- */
+.series-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  gap: 1rem;
+}
+
+.series-nav-link {
+  font-family: var(--font-head);
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.series-nav-link:hover {
+  color: var(--heading);
+}
+
+.series-nav-next {
+  margin-left: auto;
+}
+
 /* ---- Mobile ---- */
 @media (max-width: 700px) {
   html { font-size: 16px; }

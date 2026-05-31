@@ -50,6 +50,18 @@
       {{ .Content }}
     </div>
 
+    {{/* Series navigation */}}
+    {{ if or .Params.series_prev .Params.series_next }}
+    <nav class="series-nav">
+      {{ with .Params.series_prev }}
+      <a href="{{ . }}" class="series-nav-link series-nav-prev">← Previous</a>
+      {{ end }}
+      {{ with .Params.series_next }}
+      <a href="{{ . }}" class="series-nav-link series-nav-next">Next →</a>
+      {{ end }}
+    </nav>
+    {{ end }}
+
   </div>
 </article>
 

@@ -9,6 +9,9 @@ speaker: "Corpus synthesis"
 channel: "Corpus synthesis"
 theological_position: Eastern Orthodox
 word_count: "~870"
+series: "Israel, the Church, and the New Covenant"
+series_prev: "/posts/israel-series-introduction/"
+series_next: "/posts/israel-the-church-part-2-covenant-people/"
 primary_scripture:
   - Matthew 21:33-43
   - Exodus 19:6
