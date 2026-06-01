@@ -13,6 +13,7 @@
   --scripture-bg:#FAF6EE;
   --transcript-bg:#F0EBE0;
   --muted:       #6B5744;
+  --italic:      #C4651A;
   --tag-bg:      #FBF5E6;
   --max-width:   750px;
   --font-body:   'EB Garamond', Georgia, serif;
@@ -28,6 +29,7 @@ html[data-theme="dark"] {
   --scripture-bg: #221510;
   --transcript-bg:#13100a;
   --muted:        #9e8060;
+  --italic:       #E07B3A;
   --tag-bg:       #221510;
 }
 
@@ -326,7 +328,7 @@ img { max-width: 100%; height: auto; }
 /* Italic — Greek/Latin phrases */
 .post-body em {
   font-style: italic;
-  color: var(--muted);
+  color: var(--italic);
   font-size: 0.97em;
 }
 
