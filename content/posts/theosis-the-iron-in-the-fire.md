@@ -6,7 +6,6 @@ description: "Orthodox Christianity does not teach that the goal of Christian li
 summary: "The Western Christian world has largely settled for a diminished vision of salvation: morality, reward, heaven. Orthodox Christianity proposes something far more radical — actual union with the living God. This is theosis, and it changes everything."
 content_type: theological_essay
 speaker: "Archimandrite George (Abbot, Holy Monastery of St. Gregorios, Mount Athos)"
-channel: "Corpus synthesis"
 theological_position: Eastern Orthodox
 word_count: "~4000"
 primary_scripture:

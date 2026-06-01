@@ -20,7 +20,7 @@
 }
 
 html[data-theme="dark"] {
-  --bg:           #1a0f08;
+  --bg:           #24150b;
   --text:         #e8d5b0;
   --heading:      #d9bc84;
   --accent:       #c9a96e;
@@ -126,6 +126,16 @@ img { max-width: 100%; height: auto; }
   text-align: center;
   font-size: 0.85rem;
   color: var(--muted);
+}
+
+.site-footer::before {
+  content: '✦  ☦  ✦';
+  display: block;
+  text-align: center;
+  color: var(--border);
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.8rem;
 }
 .footer-copy { margin-top: 0.3rem; font-size: 0.8rem; }
 
@@ -254,8 +264,8 @@ img { max-width: 100%; height: auto; }
 }
 
 .pill-tag {
-  border: 1px solid var(--border);
-  color: var(--muted);
+  border: 1px solid var(--accent);
+  color: var(--accent);
   background: var(--tag-bg);
 }
 
@@ -281,7 +291,7 @@ img { max-width: 100%; height: auto; }
   color: var(--heading);
   margin: 2.5rem 0 0.8rem;
   letter-spacing: 0.02em;
-  border-top: 2px solid var(--border);
+  border-top: 2px solid var(--accent);
   padding-top: 1rem;
 }
 
@@ -291,7 +301,7 @@ img { max-width: 100%; height: auto; }
   font-size: 1.15rem;
   color: var(--heading);
   margin: 2rem 0 0.6rem;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid var(--accent);
   padding-top: 0.8rem;
   letter-spacing: 0.02em;
 }
@@ -377,6 +387,23 @@ img { max-width: 100%; height: auto; }
   border: none;
   border-top: 1px solid var(--border);
   margin: 2.5rem 0;
+  text-align: center;
+  overflow: visible;
+  height: 0;
+  position: relative;
+}
+
+.post-body hr::after {
+  content: '✦  ☦  ✦';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--bg);
+  padding: 0 1rem;
+  color: var(--border);
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
 }
 
 /* ---- Video Transcript Section ---- */
@@ -466,6 +493,7 @@ img { max-width: 100%; height: auto; }
 
 .post-card {
   border: 1px solid var(--border);
+  border-top: 3px solid var(--heading);
   border-radius: 4px;
   padding: 1.5rem 1.8rem;
   background: var(--scripture-bg);
@@ -581,7 +609,7 @@ img { max-width: 100%; height: auto; }
 }
 
 .book-body hr::after {
-  content: '✦  ✝  ✦';
+  content: '✦  ☦  ✦';
   position: absolute;
   top: 50%;
   left: 50%;

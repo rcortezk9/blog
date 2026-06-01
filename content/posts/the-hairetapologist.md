@@ -5,8 +5,6 @@ draft: false
 description: "A new term for an old problem: the online apologist who uses the form of Christian debate to spread heresy and target those on the way into the Church."
 summary: "A specific pattern is emerging in online Christian discourse: Protestant apologetics channels trained in Muslim-Christian debate are repurposing their toolkit to destabilize Orthodox catechumens and inquirers. This post coins a term for the figure behind this pattern, traces its patristic roots, documents a recent case, and gives catechumens the tools to recognize and resist it."
 content_type: theological_essay
-speaker: "Corpus synthesis"
-channel: "Corpus synthesis"
 theological_position: Eastern Orthodox
 word_count: "~4300"
 primary_scripture:

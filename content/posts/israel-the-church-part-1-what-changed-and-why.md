@@ -5,8 +5,6 @@ draft: false
 description: "Israel was not displaced — it was fulfilled. Christ did not end Israel's vocation; He became its completion, and in Him the Church inherits everything Israel was always carrying."
 summary: "From the beginning, Israel was called to be a kingdom of priests, a mediating people whose vocation pointed toward something beyond itself. Christ did not end that calling. He became its fulfillment — and in Him, the Church is not a replacement for Israel but its completion."
 content_type: theological_essay
-speaker: "Corpus synthesis"
-channel: "Corpus synthesis"
 theological_position: Eastern Orthodox
 word_count: "~870"
 series:

@@ -5,8 +5,6 @@ draft: false
 description: "The Orthodox Church holds the mystery of Romans 11 open as a sacred promise — and rejects dispensationalism not from hatred but from faithfulness to the same Scripture that gives us that hope."
 summary: "Romans 11 ends not with a timeline but with worship. The Orthodox Church holds the promise of Israel's ultimate reception into the faith with reverence, as a mystery awaiting God's hour. And it rejects the nineteenth-century system that turned that mystery into a political program — not from hostility, but from faithfulness."
 content_type: theological_essay
-speaker: "Corpus synthesis"
-channel: "Corpus synthesis"
 theological_position: Eastern Orthodox
 word_count: "~1000"
 series:
