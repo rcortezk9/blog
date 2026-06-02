@@ -1,0 +1,46 @@
+/* Light theme CSS for Giscus comment integration. @feature:themes */
+/* giscus-theme-light.css */
+main {
+  /* Main Background & Text */
+  --color-canvas-default: #ffffff;
+  --color-canvas-overlay: #f5f6f8;
+  --color-canvas-subtle: #f5f6f8; /* Used for input fields */
+  --color-fg-default: #2e3338;
+  --color-fg-muted: #9ca3af; /* Muted text/metadata */
+  --color-fg-subtle: #9ca3af;
+
+  /* Borders */
+  --color-border-default: #e6e6e6;
+  --color-border-primary: #e6e6e6;
+  --color-border-muted: #e6e6e6;
+
+  /* Links & Accents */
+  --color-accent-fg: #7e6df7;
+  --color-accent-emphasis: #7e6df7;
+  --color-accent-muted: #e8e8e8;
+  --color-accent-subtle: #e8e8e8;
+
+  /* Buttons (Submit Comment) */
+  --color-btn-text: #ffffff;
+  --color-btn-bg: #7e6df7;
+  --color-btn-border: #7e6df7;
+  --color-btn-hover-bg: #e8e8e8;
+  --color-btn-hover-border: #e8e8e8;
+  --color-btn-active-bg: #e8e8e8;
+  --color-btn-primary-bg: #7e6df7;
+  --color-btn-primary-border: #7e6df7;
+  
+  /* Reaction & Markdown Colors (Using your palette) */
+  --color-danger-fg: #d14d41;
+  --color-success-fg: #409c5a;
+  --color-attention-fg: #dcb20a;
+  
+  /* Code Blocks */
+  --color-prettylights-syntax-comment: #9ca3af;
+  --color-prettylights-syntax-entity: #9463c6;
+  --color-prettylights-syntax-string: #409c5a;
+  --color-prettylights-syntax-keyword: #d14d41;
+  
+  /* Font */
+  font-family: 'Inter', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}

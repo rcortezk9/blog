@@ -682,33 +682,3 @@ img { max-width: 100%; height: auto; }
   .post-body h3 { font-size: 1rem; }
   .nav-links { gap: 1rem; }
 }
-
-/* ---- Theology Notes Index ---- */
-.theology-index .list-intro {
-  margin-bottom: 2rem;
-  border-bottom: 1px solid var(--border);
-  padding-bottom: 1.5rem;
-  color: var(--muted);
-  font-style: italic;
-}
-.theology-card-meta {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 0.5rem;
-}
-.theology-tier {
-  font-family: var(--font-head);
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  padding: 0.15rem 0.6rem;
-  border-radius: 3px;
-  border: 1px solid var(--accent);
-  color: var(--accent);
-  background: var(--tag-bg);
-}
-.theology-date {
-  font-size: 0.82rem;
-  color: var(--muted);
-}

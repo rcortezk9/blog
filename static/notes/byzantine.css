@@ -1,0 +1,269 @@
+/* ============================================================
+   Byzantine / Orthodox skin for the Kiln-generated Theology site.
+   Re-skins Kiln's DEFAULT theme by redefining the source CSS
+   variables it injects inline per page. This file is linked LAST
+   in <head> (after Kiln's inline <style>), so equal-specificity
+   :root rules here win the cascade.
+   Palette mirrors the blog/Obsidian byzantine theme:
+     parchment bg, dark-brown text, Byzantine-red headings,
+     dark-gold accents, light-gold borders.
+   Applied by `vault-build` after every `kiln generate`.
+   ============================================================ */
+
+/* Fonts (loaded from Google Fonts; falls back to serif offline). */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
+/* ---- Light mode (Kiln's :root defaults) ---- */
+:root {
+  --bg-color:        #F7F3E9;  /* parchment */
+  --text-color:      #2C1810;  /* dark brown */
+  --sidebar-bg:      #FBF5E6;  /* lighter parchment */
+  --sidebar-border:  #C4A35A;  /* light gold */
+  --accent-color:    #B8860B;  /* dark gold */
+  --hover-color:     #EFE6CE;  /* warm hover */
+  --font-main:       'EB Garamond', Georgia, 'Times New Roman', serif;
+  /* Recolor the Obsidian accent palette toward Byzantine red/gold */
+  --color-red:       #8B1A1A;
+  --color-orange:    #A0522D;
+  --color-yellow:    #B8860B;
+  /* Orthodox-iconographic palette for heading levels + emphasis (light) */
+  --byz-h1:     #7B1113;  /* oxblood / Byzantine red */
+  --byz-h2:     #B8860B;  /* dark gold */
+  --byz-h3:     #6B3FA0;  /* imperial purple (porphyry) */
+  --byz-h4:     #1F5673;  /* lapis / Byzantine blue */
+  --byz-h5:     #4F6B2E;  /* malachite / olive green */
+  --byz-h6:     #8A4B2B;  /* sienna / terracotta */
+  --byz-em:     #9C5A2B;  /* italics: warm bronze */
+  --byz-strong: #7B1113;  /* bold: deep Byzantine red */
+}
+
+/* ---- Dark mode (Kiln uses both selectors below) ---- */
+:root[data-theme="dark"],
+:root:not([data-theme="light"]) {
+  --bg-color:        #1a0f08;
+  --text-color:      #e8d5b0;
+  --sidebar-bg:      #221510;
+  --sidebar-border:  #3d2e18;
+  --accent-color:    #c9a96e;
+  --hover-color:     #2a1a10;
+  --font-main:       'EB Garamond', Georgia, 'Times New Roman', serif;
+  --color-red:       #d98c8c;
+  --color-orange:    #c9a96e;
+  --color-yellow:    #d9bc84;
+  /* Lightened tints of the same palette, legible on the dark parchment (dark) */
+  --byz-h1:     #E59B8A;  /* light Byzantine red */
+  --byz-h2:     #E6C77A;  /* light gold */
+  --byz-h3:     #C2A6E8;  /* light amethyst */
+  --byz-h4:     #88B7D6;  /* light lapis */
+  --byz-h5:     #AEC585;  /* light malachite */
+  --byz-h6:     #E0A878;  /* light sienna */
+  --byz-em:     #E0B98A;  /* italics: soft gold-bronze */
+  --byz-strong: #E59B8A;  /* bold: light Byzantine red */
+}
+
+/* ---- Headings: Cinzel display face throughout ---- */
+.content :is(h1, h2, h3, h4, h5, h6) {
+  font-family: 'Cinzel', 'Trajan Pro', Georgia, serif;
+}
+
+/* H1 — large ink-colored page title; ☩ cross floated above it */
+.content h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-color);    /* dark ink, not colored — matches the HTML template */
+  letter-spacing: 0.04em;
+  line-height: 1.25;
+  margin-top: 1.2rem;
+  border-bottom: none;         /* remove Kiln's default h1 underline */
+  padding-bottom: 0;
+}
+.content h1::before {
+  content: '☩';
+  display: block;
+  font-size: 1rem;
+  color: var(--accent-color);
+  margin-bottom: 0.4rem;
+  opacity: 0.75;
+}
+
+/* H2 — small ALL-CAPS section label with thin gold rule underneath */
+.content h2 {
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--byz-h2);
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--byz-h2), transparent 60%);
+  margin-top: 2rem;
+}
+
+/* H3 — mid-size title-case subheading, no underline */
+.content h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--byz-h3);
+  margin-top: 1.4rem;
+}
+
+/* H4–H6 — retain per-level colors, scale down gently */
+.content h4 { color: var(--byz-h4); font-size: 0.95rem; font-weight: 700; }
+.content h5 { color: var(--byz-h5); font-size: 0.88rem; font-weight: 600; }
+.content h6 { color: var(--byz-h6); font-size: 0.82rem; font-weight: 600; }
+
+/* ---- Emphasis: italics in warm bronze, bold in deep red ---- */
+.content em,
+.content i        { color: var(--byz-em); font-style: italic; }
+.content strong,
+.content b        { color: var(--byz-strong); font-weight: 600; }
+
+/* ---- HR — ☩ ornament centered on a faded gradient rule ---- */
+.content hr {
+  border: none;
+  position: relative;
+  height: 1px;
+  /* Fading line through the center; color-mix avoids inheriting opacity issues */
+  background: linear-gradient(
+    to right,
+    transparent,
+    color-mix(in srgb, var(--accent-color), transparent 45%) 20%,
+    color-mix(in srgb, var(--accent-color), transparent 45%) 80%,
+    transparent
+  );
+  margin: 2.5rem 0;
+}
+.content hr::after {
+  content: '☩';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.3rem;             /* visible size, up from 0.9rem */
+  color: var(--accent-color);
+  background: var(--bg-color);   /* mask the line behind the glyph */
+  padding: 0 0.6rem;
+  line-height: 1;
+}
+
+/* ---- Blockquote — full rectangular border, dark warm bg, Cinzel ref label ---- */
+.content blockquote {
+  background: color-mix(in srgb, var(--bg-color), var(--accent-color) 12%);
+  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 55%);
+  border-left: 3px solid var(--accent-color);
+  padding: 0.8rem 1rem;
+  margin: 1.2rem 0;
+  font-size: 0.97rem;
+  font-style: italic;
+  color: color-mix(in srgb, var(--text-color), transparent 15%);
+}
+
+/* First <strong> inside a blockquote = scripture/source reference label:
+   style as small Cinzel red uppercase, same as .ref-label in the HTML template */
+.content blockquote p:first-child > strong:first-child {
+  display: block;
+  font-style: normal;
+  font-family: 'Cinzel', serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  color: var(--byz-strong);
+  text-transform: uppercase;
+  margin-bottom: 0.35rem;
+  font-weight: 600;
+}
+
+.content blockquote cite {
+  display: block;
+  margin-top: 0.4rem;
+  font-style: normal;
+  font-size: 0.83rem;
+  color: color-mix(in srgb, var(--text-color), transparent 40%);
+  font-family: 'Cinzel', serif;
+  letter-spacing: 0.06em;
+}
+
+/* Site title / brand in the sidebar uses the display face too */
+.font-main { font-family: 'Cinzel', 'Trajan Pro', Georgia, serif; }
+
+/* Wider reading measure (Kiln defaults to 65ch). min() keeps margins on huge screens. */
+.content { max-width: 96%; line-height: 1.75; font-size: 1.2rem; }
+
+/* ── Dashboard: study progress cards and progress bars ────────────────────── */
+
+.prog-track {
+  height: 8px;
+  background: var(--hover-color);
+  border-radius: 4px;
+  margin: 0.5rem 0 0.6rem;
+  overflow: hidden;
+}
+
+.prog-fill {
+  height: 100%;
+  border-radius: 4px;
+  background: var(--accent-color);
+  transition: width 0.3s ease;
+}
+
+.prog-fill.complete { background: var(--byz-h5); }  /* malachite green */
+
+/* Striped bar shown when total chapter count is unknown */
+.prog-unknown {
+  height: 100%;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--hover-color)     0 8px,
+    var(--sidebar-border) 8px 16px
+  );
+}
+
+.study-card {
+  border: 1px solid var(--sidebar-border);
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+  background: var(--sidebar-bg);
+}
+
+.study-card.queued  { opacity: 0.78; border-style: dashed; }
+.study-card.complete { opacity: 0.55; }
+
+.study-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Card typography */
+.card-author   { font-size: 0.85rem; opacity: 0.68; margin: 0 0 0.5rem; font-style: italic; }
+.card-progress { font-size: 0.9rem;  margin: 0.2rem 0; }
+.card-meta     { font-size: 0.8rem;  opacity: 0.62; margin: 0.2rem 0; }
+.card-extra    { font-size: 0.82rem; color: var(--accent-color); margin: 0.4rem 0 0; opacity: 0.88; }
+
+.complete-label { color: var(--byz-h5); font-weight: 600; }
+
+/* Small inline badge (e.g. "2nd Pass") */
+.badge {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-family: 'Cinzel', serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--byz-h4);
+  border: 1px solid var(--byz-h4);
+  border-radius: 3px;
+  padding: 0 0.4em;
+  vertical-align: middle;
+  font-style: normal;
+  opacity: 0.85;
+}
+
+/* Large stat number (e.g. daily reading count) */
+.stat-big {
+  font-family: 'Cinzel', serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: var(--byz-h1);
+  line-height: 1;
+  margin: 0.25rem 0 0.1rem;
+}
