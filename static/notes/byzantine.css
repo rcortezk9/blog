@@ -187,6 +187,11 @@
 /* Wider reading measure (Kiln defaults to 65ch). min() keeps margins on huge screens. */
 .content { max-width: 96%; line-height: 1.75; font-size: 1.2rem; }
 
+/* Hide right-panel toggle on pages that have no right sidebar (e.g. home/dashboard) */
+body:not(:has(#right-sidebar)) .sidebar-toggle.right-toggle {
+  display: none;
+}
+
 /* ── Dashboard: study progress cards and progress bars ────────────────────── */
 
 .prog-track {
