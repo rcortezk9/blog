@@ -15,7 +15,7 @@
   --muted:       #6B5744;
   --italic:      #C4651A;
   --tag-bg:      #FBF5E6;
-  --max-width:   750px;
+  --max-width:   860px;
   --font-body:   'EB Garamond', Georgia, serif;
   --font-head:   'Cinzel', 'Trajan Pro', serif;
 }
@@ -36,7 +36,7 @@ html[data-theme="dark"] {
 /* ---- Reset & Base ---- */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { font-size: 18px; scroll-behavior: smooth; }
+html { font-size: 19px; scroll-behavior: smooth; }
 
 body {
   background: var(--bg);
