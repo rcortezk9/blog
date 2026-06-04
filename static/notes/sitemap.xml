@@ -334,7 +334,7 @@
   </url>
   <url>
     <loc>/orthodox/book_readings</loc>
-    <lastmod>2026-06-02</lastmod>
+    <lastmod>2026-06-03</lastmod>
   </url>
   <url>
     <loc>/orthodox/book_readings/th_book_ch0_introduction</loc>
@@ -453,8 +453,12 @@
     <lastmod>2026-06-02</lastmod>
   </url>
   <url>
+    <loc>/orthodox/book_readings/th_crucifixion_king_glory_ch18_jesus_before_herod</loc>
+    <lastmod>2026-06-03</lastmod>
+  </url>
+  <url>
     <loc>/orthodox/book_readings/th_crucifixion_king_glory_</loc>
-    <lastmod>2026-06-02</lastmod>
+    <lastmod>2026-06-03</lastmod>
   </url>
   <url>
     <loc>/orthodox/book_readings/th_religion_of_apostles_ch01_divine_father_son.html</loc>
@@ -714,7 +718,7 @@
   </url>
   <url>
     <loc>/wiki</loc>
-    <lastmod>2026-06-02</lastmod>
+    <lastmod>2026-06-03</lastmod>
   </url>
   <url>
     <loc>/wiki/catechumen_hub</loc>
@@ -722,7 +726,7 @@
   </url>
   <url>
     <loc>/wiki/comparison_sola_scriptura_orthodox_critique</loc>
-    <lastmod>2026-05-20</lastmod>
+    <lastmod>2026-06-03</lastmod>
   </url>
   <url>
     <loc>/wiki/concept_christology_and_trinity</loc>
@@ -738,7 +742,7 @@
   </url>
   <url>
     <loc>/wiki/concept_divine_council</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-06-03</lastmod>
   </url>
   <url>
     <loc>/wiki/concept_divine_liturgy_and_sacraments</loc>
@@ -758,7 +762,7 @@
   </url>
   <url>
     <loc>/wiki/concept_orthodox_spiritual_practice</loc>
-    <lastmod>2026-06-02</lastmod>
+    <lastmod>2026-06-03</lastmod>
   </url>
   <url>
     <loc>/wiki/concept_palamism_and_divine_energies</loc>
@@ -791,5 +795,9 @@
   <url>
     <loc>/</loc>
     <lastmod>2026-05-29</lastmod>
+  </url>
+  <url>
+    <loc>/th_orthodox_20260603_reading</loc>
+    <lastmod>2026-06-03</lastmod>
   </url>
 </urlset>
