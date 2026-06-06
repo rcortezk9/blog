@@ -74,7 +74,7 @@
   </url>
   <url>
     <loc>/daily_readings/2026</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-06-06</lastmod>
   </url>
   <url>
     <loc>/daily_readings/2026/th_orthodox_20260324_reading</loc>
@@ -219,6 +219,14 @@
   <url>
     <loc>/daily_readings/2026/th_orthodox_20260602_reading</loc>
     <lastmod>2026-06-03</lastmod>
+  </url>
+  <url>
+    <loc>/daily_readings/2026/th_orthodox_20260603_reading</loc>
+    <lastmod>2026-06-03</lastmod>
+  </url>
+  <url>
+    <loc>/daily_readings/2026/th_orthodox_20260604_reading</loc>
+    <lastmod>2026-06-04</lastmod>
   </url>
   <url>
     <loc>/israel_studies</loc>
@@ -831,13 +839,5 @@
   <url>
     <loc>/</loc>
     <lastmod>2026-05-29</lastmod>
-  </url>
-  <url>
-    <loc>/th_orthodox_20260603_reading</loc>
-    <lastmod>2026-06-03</lastmod>
-  </url>
-  <url>
-    <loc>/th_orthodox_20260604_reading</loc>
-    <lastmod>2026-06-04</lastmod>
   </url>
 </urlset>
