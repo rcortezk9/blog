@@ -330,11 +330,11 @@
   </url>
   <url>
     <loc>/orthodox</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-06-06</lastmod>
   </url>
   <url>
     <loc>/orthodox/book_readings</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-06-04</lastmod>
   </url>
   <url>
     <loc>/orthodox/book_readings/th_book_ch0_introduction</loc>
@@ -457,8 +457,12 @@
     <lastmod>2026-06-03</lastmod>
   </url>
   <url>
+    <loc>/orthodox/book_readings/th_crucifixion_king_glory_ch19_scourging_mocking</loc>
+    <lastmod>2026-06-04</lastmod>
+  </url>
+  <url>
     <loc>/orthodox/book_readings/th_crucifixion_king_glory_</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-06-04</lastmod>
   </url>
   <url>
     <loc>/orthodox/book_readings/th_religion_of_apostles_ch01_divine_father_son.html</loc>
@@ -519,6 +523,38 @@
   <url>
     <loc>/orthodox/nicene_creed_memorization</loc>
     <lastmod>2026-05-28</lastmod>
+  </url>
+  <url>
+    <loc>/orthodox/th_alex_ortodoxie_ecclesial_anxiety_apologetics</loc>
+    <lastmod>2026-06-06</lastmod>
+  </url>
+  <url>
+    <loc>/orthodox/th_alex_ortodoxie_saints_intercession_apologetics</loc>
+    <lastmod>2026-06-06</lastmod>
+  </url>
+  <url>
+    <loc>/orthodox/th_alex_ortodoxie_total_depravity_refuted</loc>
+    <lastmod>2026-06-06</lastmod>
+  </url>
+  <url>
+    <loc>/orthodox/th_alex_ortodoxie_unconditional_election_refuted</loc>
+    <lastmod>2026-06-06</lastmod>
+  </url>
+  <url>
+    <loc>/orthodox/th_apologetics_audit_20260606</loc>
+    <lastmod>2026-06-06</lastmod>
+  </url>
+  <url>
+    <loc>/orthodox/th_apologetics_cheatsheet_protestant_tulip</loc>
+    <lastmod>2026-06-06</lastmod>
+  </url>
+  <url>
+    <loc>/orthodox/th_baptismal_regeneration_apologetics_analysis</loc>
+    <lastmod>2026-06-06</lastmod>
+  </url>
+  <url>
+    <loc>/orthodox/th_baptismal_regeneration_apologetics_quick</loc>
+    <lastmod>2026-06-06</lastmod>
   </url>
   <url>
     <loc>/orthodox/th_debate_eucharist_baptism_canon</loc>
@@ -718,7 +754,7 @@
   </url>
   <url>
     <loc>/wiki</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-06-04</lastmod>
   </url>
   <url>
     <loc>/wiki/catechumen_hub</loc>
@@ -730,7 +766,7 @@
   </url>
   <url>
     <loc>/wiki/concept_christology_and_trinity</loc>
-    <lastmod>2026-05-22</lastmod>
+    <lastmod>2026-06-04</lastmod>
   </url>
   <url>
     <loc>/wiki/concept_church_history_and_apostolicity</loc>
@@ -746,7 +782,7 @@
   </url>
   <url>
     <loc>/wiki/concept_divine_liturgy_and_sacraments</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-04</lastmod>
   </url>
   <url>
     <loc>/wiki/concept_eschatology_and_salvation</loc>
@@ -762,7 +798,7 @@
   </url>
   <url>
     <loc>/wiki/concept_orthodox_spiritual_practice</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-06-04</lastmod>
   </url>
   <url>
     <loc>/wiki/concept_palamism_and_divine_energies</loc>
@@ -799,5 +835,9 @@
   <url>
     <loc>/th_orthodox_20260603_reading</loc>
     <lastmod>2026-06-03</lastmod>
+  </url>
+  <url>
+    <loc>/th_orthodox_20260604_reading</loc>
+    <lastmod>2026-06-04</lastmod>
   </url>
 </urlset>
