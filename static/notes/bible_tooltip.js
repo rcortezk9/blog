@@ -184,7 +184,9 @@ function positionTooltip(tooltip, anchorRect) {
 
 function isBibleLink(a) {
   const href = a.getAttribute('href') || '';
-  return href.startsWith(BIBLE_PATH_PREFIX);
+  // Use includes() so this works both locally (/bible/...) and on the external
+  // site where kiln_rewrite.py prepends /notes (/notes/bible/...).
+  return href.includes(BIBLE_PATH_PREFIX);
 }
 
 function init() {
