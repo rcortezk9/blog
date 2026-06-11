@@ -181,7 +181,7 @@
     for (var i = 0; i < results.length; i++) {
       var entry = results[i];
       var item = document.createElement("a");
-      item.href = entry.url;
+      item.href = BASE_URL + entry.url;
       item.className = "search-result-item";
       item.setAttribute("data-index", i);
 
