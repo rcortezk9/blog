@@ -272,3 +272,150 @@ body:not(:has(#right-sidebar)) .sidebar-toggle.right-toggle {
   line-height: 1;
   margin: 0.25rem 0 0.1rem;
 }
+
+/* ── Splash page: welcome landing with topic cards ─────────────────────────── */
+
+.splash-page {
+  max-width: 52rem;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+}
+
+.splash-header {
+  text-align: center;
+  padding: 2.5rem 1rem 1rem;
+}
+
+.splash-page .splash-cross {
+  display: block;
+  font-size: 1.6rem;
+  color: var(--accent-color);
+  opacity: 0.7;
+  margin-bottom: 0.6rem;
+}
+
+.splash-page .splash-title {
+  font-family: 'Cinzel', 'Trajan Pro', Georgia, serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--text-color);
+  letter-spacing: 0.04em;
+  margin: 0 0 0.8rem;
+  border-bottom: none;
+  line-height: 1.2;
+}
+.splash-page .splash-title::before { content: none; }
+
+.splash-tagline {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: color-mix(in srgb, var(--text-color), transparent 20%);
+  max-width: 36rem;
+  margin: 0 auto 0.8rem;
+}
+
+.splash-stat {
+  font-family: 'Cinzel', serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+  opacity: 0.75;
+  margin: 0;
+}
+
+.splash-divider {
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    color-mix(in srgb, var(--accent-color), transparent 50%) 25%,
+    color-mix(in srgb, var(--accent-color), transparent 50%) 75%,
+    transparent
+  );
+  margin: 2rem 0;
+}
+
+/* Topic card grid */
+.topic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.topic-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.4rem 1rem 1.2rem;
+  border: 1px solid var(--sidebar-border);
+  border-radius: 8px;
+  background: var(--sidebar-bg);
+  text-decoration: none;
+  color: var(--text-color);
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.15s;
+  cursor: pointer;
+}
+
+.topic-card:hover {
+  border-color: var(--accent-color);
+  box-shadow: 0 2px 12px color-mix(in srgb, var(--accent-color), transparent 75%);
+  transform: translateY(-2px);
+}
+
+.topic-icon {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  line-height: 1;
+}
+
+.topic-title {
+  font-family: 'Cinzel', serif;
+  font-size: 0.92rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--byz-h1);
+  margin-bottom: 0.35rem;
+}
+
+.topic-desc {
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: color-mix(in srgb, var(--text-color), transparent 30%);
+  margin-bottom: 0.5rem;
+}
+
+.topic-count {
+  font-family: 'Cinzel', serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+  opacity: 0.7;
+}
+
+.splash-footer-links {
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+}
+
+.splash-footer-links a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.splash-footer-links a:hover {
+  color: var(--byz-h1);
+  text-decoration: underline;
+}
+
+.splash-dot {
+  margin: 0 0.6rem;
+  color: var(--accent-color);
+  opacity: 0.5;
+}
