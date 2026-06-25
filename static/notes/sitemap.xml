@@ -298,7 +298,7 @@
   </url>
   <url>
     <loc>/church_history</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-06-25</lastmod>
   </url>
   <url>
     <loc>/church_history/catholic_orthodox_vs_early_church_analysis_eucharist_section</loc>
@@ -333,6 +333,10 @@
     <lastmod>2026-04-22</lastmod>
   </url>
   <url>
+    <loc>/church_history/patristic_exegesis_reading_list</loc>
+    <lastmod>2026-06-25</lastmod>
+  </url>
+  <url>
     <loc>/church_history/top_three_reasons_why_the_early_church_was_not_roman_catholic_complete_analysis</loc>
     <lastmod>2026-04-22</lastmod>
   </url>
@@ -342,7 +346,7 @@
   </url>
   <url>
     <loc>/daily_readings/2026</loc>
-    <lastmod>2026-06-18</lastmod>
+    <lastmod>2026-06-25</lastmod>
   </url>
   <url>
     <loc>/daily_readings/2026/20260324_reading</loc>
@@ -501,6 +505,10 @@
     <lastmod>2026-06-18</lastmod>
   </url>
   <url>
+    <loc>/daily_readings/2026/20260625_reading</loc>
+    <lastmod>2026-06-25</lastmod>
+  </url>
+  <url>
     <loc>/israel_studies</loc>
     <lastmod>2026-06-08</lastmod>
   </url>
@@ -610,7 +618,7 @@
   </url>
   <url>
     <loc>/orthodox</loc>
-    <lastmod>2026-06-17</lastmod>
+    <lastmod>2026-06-25</lastmod>
   </url>
   <url>
     <loc>/orthodox/book_readings</loc>
@@ -958,7 +966,7 @@
   </url>
   <url>
     <loc>/orthodox/terms_greek_orthodox</loc>
-    <lastmod>2026-04-22</lastmod>
+    <lastmod>2026-06-25</lastmod>
   </url>
   <url>
     <loc>/orthodox/th_philokalia.html</loc>
@@ -1062,7 +1070,7 @@
   </url>
   <url>
     <loc>/wiki</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-06-25</lastmod>
   </url>
   <url>
     <loc>/wiki/catechumen_hub</loc>
@@ -1070,19 +1078,19 @@
   </url>
   <url>
     <loc>/wiki/comparison_sola_scriptura_orthodox_critique</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-06-25</lastmod>
   </url>
   <url>
     <loc>/wiki/concept_christology_and_trinity</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-06-25</lastmod>
   </url>
   <url>
     <loc>/wiki/concept_church_history_and_apostolicity</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-06-25</lastmod>
   </url>
   <url>
     <loc>/wiki/concept_covenant_theology</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-06-25</lastmod>
   </url>
   <url>
     <loc>/wiki/concept_divine_council</loc>
@@ -1102,39 +1110,47 @@
   </url>
   <url>
     <loc>/wiki/concept_nepsis</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-06-25</lastmod>
   </url>
   <url>
     <loc>/wiki/concept_orthodox_catechesis</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-06-25</lastmod>
   </url>
   <url>
     <loc>/wiki/concept_orthodox_spiritual_practice</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-06-25</lastmod>
   </url>
   <url>
     <loc>/wiki/concept_palamism_and_divine_energies</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-06-25</lastmod>
+  </url>
+  <url>
+    <loc>/wiki/concept_theoria</loc>
+    <lastmod>2026-06-25</lastmod>
   </url>
   <url>
     <loc>/wiki/concept_theosis</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-06-25</lastmod>
   </url>
   <url>
     <loc>/wiki/concept_true_israel_and_ecclesiology</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-06-25</lastmod>
   </url>
   <url>
     <loc>/wiki</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-06-25</lastmod>
   </url>
   <url>
     <loc>/wiki/log</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-06-25</lastmod>
   </url>
   <url>
     <loc>/wiki/playlist_understanding_orthodox_christianity</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-06-25</lastmod>
+  </url>
+  <url>
+    <loc>/wiki/source_patristic_exegesis_reading_list</loc>
+    <lastmod>2026-06-25</lastmod>
   </url>
   <url>
     <loc>/wiki/source_psalm_22_typology</loc>
@@ -1170,11 +1186,15 @@
   </url>
   <url>
     <loc>/wiki/source_uoc_07_theotokos_mary</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-06-25</lastmod>
   </url>
   <url>
     <loc>/wiki/source_uoc_08_first_christians_not_protestant</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-06-25</lastmod>
+  </url>
+  <url>
+    <loc>/wiki/source_uoc_09_trinity_nicaea_325</loc>
+    <lastmod>2026-06-25</lastmod>
   </url>
   <url>
     <loc>/</loc>
