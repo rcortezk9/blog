@@ -419,3 +419,15 @@ body:not(:has(#right-sidebar)) .sidebar-toggle.right-toggle {
   color: var(--accent-color);
   opacity: 0.5;
 }
+
+/* Recently-added notes panel label */
+.recents-label {
+  padding: 0.4rem 1rem 0.25rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+  opacity: 0.75;
+  border-bottom: 1px solid var(--sidebar-border);
+}
