@@ -1,16 +1,14 @@
 /**
  * bible_tooltip.js — Byzantine parchment hover tooltips for Bible verse links.
  *
- * Attaches to any <a class="internal-link"> whose href starts with BIBLE_PATH_PREFIX.
- * On hover it fetches the pre-built Kiln HTML page, extracts the verse text and OSB
- * study note from the .content div, and displays a styled popup near the cursor.
- *
- * Works offline — fetches the same static files Kiln already built. No server needed.
- *
- * Adjust BIBLE_PATH_PREFIX if Kiln ever changes how it renders the Bible folder path.
+ * Loads bible.json once on first hover (same lazy pattern as glossary_tooltip.js),
+ * then does an instant dictionary lookup keyed by the link's href path.
+ * No per-verse HTTP requests; no HTML parsing.
  */
 
+const BASE_URL = "/notes";
 const BIBLE_PATH_PREFIX = '/bible/';
+const BIBLE_JSON_URL = BASE_URL + '/bible.json';
 
 const TOOLTIP_CSS = `
   #bv-tooltip {
@@ -93,64 +91,24 @@ function buildTooltipEl() {
   return el;
 }
 
-// ── Fetch + parse ────────────────────────────────────────────────────────────
+// ── Data loading ──────────────────────────────────────────────────────────────
 
-const cache = new Map();
+let bibleData = null;
+let loadPromise = null;
 
-async function fetchVerse(href) {
-  if (cache.has(href)) return cache.get(href);
-
-  // Try bare href first (kiln serve handles routing), then .html fallback.
-  const urls = [href, href + '.html'];
-  for (const url of urls) {
-    try {
-      const res = await fetch(url, { cache: 'force-cache' });
-      if (!res.ok) continue;
-      const html = await res.text();
-      const parsed = parseVerseHtml(html);
-      cache.set(href, parsed);
-      return parsed;
-    } catch (_) { /* try next */ }
-  }
-  return null;
+function loadBibleData() {
+  if (loadPromise) return loadPromise;
+  loadPromise = fetch(BIBLE_JSON_URL, { cache: 'force-cache' })
+    .then(r => r.ok ? r.json() : {})
+    .then(data => { bibleData = data; return data; })
+    .catch(() => { bibleData = {}; return {}; });
+  return loadPromise;
 }
 
-function parseVerseHtml(html) {
-  const doc = new DOMParser().parseFromString(html, 'text/html');
-  const content = doc.querySelector('.content');
-  if (!content) return null;
-
-  // Kiln puts the page title in the sidebar, not in .content — read <title> instead.
-  // Format: "John 3:16 • Theology Notes" → take everything before " • ".
-  const titleEl = doc.querySelector('title');
-  const rawTitle = titleEl ? titleEl.textContent.trim() : '';
-  const ref = rawTitle.split(' • ')[0] || '';
-
-  // First <p> that contains actual verse text (skip empty ones).
-  let verse = '';
-  const paras = content.querySelectorAll('p');
-  for (const p of paras) {
-    const t = p.textContent.trim();
-    if (t.length > 8) { verse = t; break; }
-  }
-
-  // OSB note: look for a heading containing "OSB" or "note" (case-insensitive),
-  // then grab the first <p> after it.
-  let osb = '';
-  const headings = content.querySelectorAll('h2, h3');
-  for (const h of headings) {
-    if (/osb|note/i.test(h.textContent)) {
-      let sib = h.nextElementSibling;
-      while (sib) {
-        if (sib.tagName === 'P') { osb = sib.textContent.trim(); break; }
-        if (/^H[1-6]$/.test(sib.tagName)) break;
-        sib = sib.nextElementSibling;
-      }
-      break;
-    }
-  }
-
-  return { ref, verse, osb };
+function lookupVerse(href) {
+  // Strip /notes prefix so the key matches bible.json's /bible/{book}/{slug} format.
+  const key = href.replace(/^\/notes/, '');
+  return bibleData ? (bibleData[key] ?? null) : null;
 }
 
 // ── Tooltip positioning ──────────────────────────────────────────────────────
@@ -166,13 +124,11 @@ function positionTooltip(tooltip, anchorRect) {
   let left = anchorRect.left;
   let top  = anchorRect.bottom + OFFSET;
 
-  // Flip above if too close to bottom.
   if (top + 240 > vh) {
     top = anchorRect.top - 240 - OFFSET;
     if (top < 8) top = 8;
   }
 
-  // Keep inside viewport horizontally.
   if (left + tw > vw - 8) left = vw - tw - 8;
   if (left < 8) left = 8;
 
@@ -184,8 +140,6 @@ function positionTooltip(tooltip, anchorRect) {
 
 function isBibleLink(a) {
   const href = a.getAttribute('href') || '';
-  // Use includes() so this works both locally (/bible/...) and on the external
-  // site where kiln_rewrite.py prepends /notes (/notes/bible/...).
   return href.includes(BIBLE_PATH_PREFIX);
 }
 
@@ -193,9 +147,9 @@ function init() {
   injectStyles();
   const tooltip = buildTooltipEl();
 
-  const refEl  = document.getElementById('bv-tooltip-ref');
+  const refEl   = document.getElementById('bv-tooltip-ref');
   const verseEl = document.getElementById('bv-tooltip-verse');
-  const osbEl  = document.getElementById('bv-tooltip-osb');
+  const osbEl   = document.getElementById('bv-tooltip-osb');
   const osbText = document.getElementById('bv-tooltip-osb-text');
 
   let hoverTimer = null;
@@ -206,17 +160,19 @@ function init() {
     if (activeHref === href) return;
     activeHref = href;
 
-    fetchVerse(href).then(data => {
-      if (!data || activeHref !== href) return;
+    loadBibleData().then(() => {
+      if (activeHref !== href) return;
+      const data = lookupVerse(href);
+      if (!data) return;
 
-      refEl.textContent   = data.ref || href.split('/').pop().replace(/_/g, ' ');
+      refEl.textContent   = data.ref || href.split('/').pop().replace(/_/g, ':');
       verseEl.textContent = data.verse || '(verse text not found)';
 
       if (data.osb) {
-        osbText.textContent    = data.osb;
-        osbEl.style.display    = '';
+        osbText.textContent = data.osb;
+        osbEl.style.display = '';
       } else {
-        osbEl.style.display    = 'none';
+        osbEl.style.display = 'none';
       }
 
       positionTooltip(tooltip, a.getBoundingClientRect());
@@ -229,7 +185,6 @@ function init() {
     tooltip.classList.remove('visible');
   }
 
-  // Use event delegation — catches links added after DOMContentLoaded.
   document.addEventListener('mouseover', e => {
     const a = e.target.closest('a');
     if (!a || !isBibleLink(a)) return;
@@ -244,7 +199,6 @@ function init() {
     hide();
   });
 
-  // Also hide if focus moves away via keyboard.
   document.addEventListener('focusout', e => {
     const a = e.target.closest('a');
     if (a && isBibleLink(a)) hide();
