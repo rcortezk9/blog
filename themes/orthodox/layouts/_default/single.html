@@ -43,6 +43,14 @@
         {{ end }}
       </div>
       {{ end }}
+
+      {{/* Audio narration */}}
+      {{ with .Params.audio }}
+      <div class="post-audio">
+        <span class="post-audio-label">Listen to this post</span>
+        <audio controls preload="none" src="{{ . | relURL }}"></audio>
+      </div>
+      {{ end }}
     </header>
 
     {{/* Main content */}}

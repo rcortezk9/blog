@@ -5,6 +5,7 @@ draft: false
 description: "A short story about a private ledger of grievances, and the Sunday a church asks its people to hand theirs over anyway."
 summary: "Anna has kept a running account of every parental wrong since she was fourteen — proof, in case she ever needs it. Forgiveness Sunday asks her to set it down regardless. A short story about mnesikakia, the wall built one disappointment at a time, and the strange grief of finding out it's actually come down."
 content_type: short_fiction
+audio: "audio/the-ledger.mp3"
 theological_position: Eastern Orthodox
 word_count: "~1900"
 primary_scripture:

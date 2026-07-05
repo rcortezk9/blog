@@ -272,6 +272,31 @@ img { max-width: 100%; height: auto; }
   background: var(--tag-bg);
 }
 
+/* ---- Audio narration ---- */
+.post-audio {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-top: 0.9rem;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--scripture-bg);
+}
+
+.post-audio-label {
+  font-family: var(--font-head);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+
+.post-audio audio {
+  width: 100%;
+  accent-color: var(--accent);
+}
+
 /* ---- Post Body — Typography ---- */
 .post-body {
   font-size: 1.05rem;
