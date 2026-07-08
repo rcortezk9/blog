@@ -5,6 +5,7 @@ draft: false
 description: "Rome just re-excommunicated the SSPX. The traditionalists' defense — 'I'm only bound by infallible dogma' — turns out to be a heresy Rome condemned a century ago. But the argument doesn't stop with the trads."
 summary: "When Rome excommunicated the SSPX again this week, the traditionalist defense was the same one it's always been: we're only bound by what's explicitly infallible. Denzinger says otherwise — and has said so for over a century. Tracing that argument to its root uncovers something bigger than one schismatic society: an authority structure that can't survive being pressed against its own law, or its own first-millennium history."
 content_type: theological_essay
+audio: "audio/the-argument-that-condemns-everyone.mp3"
 speaker: "Jay Dyer"
 channel: "Patristic Clips / Nous Nexus"
 theological_position: Eastern Orthodox

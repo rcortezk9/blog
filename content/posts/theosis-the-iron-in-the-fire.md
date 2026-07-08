@@ -5,6 +5,7 @@ draft: false
 description: "Orthodox Christianity does not teach that the goal of Christian life is going to heaven. It teaches something far more radical: union with God — theosis."
 summary: "The Western Christian world has largely settled for a diminished vision of salvation: morality, reward, heaven. Orthodox Christianity proposes something far more radical — actual union with the living God. This is theosis, and it changes everything."
 content_type: theological_essay
+audio: "audio/theosis-the-iron-in-the-fire.mp3"
 speaker: "Archimandrite George (Abbot, Holy Monastery of St. Gregorios, Mount Athos)"
 theological_position: Eastern Orthodox
 word_count: "~4000"
