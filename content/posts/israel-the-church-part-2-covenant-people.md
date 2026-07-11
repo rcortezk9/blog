@@ -5,6 +5,7 @@ draft: false
 description: "St. Paul redefines the covenant people not by ancestry but by faith, baptism, and the Spirit's work in the heart — and the Orthodox sacramental life is where that redefinition becomes concrete."
 summary: "If the covenant family is defined by bearing fruit rather than by bloodline, who are they — and how does one enter? St. Paul answers both questions with a directness that has made Western Christianity uncomfortable for five hundred years. The Orthodox sacramental life is where his answer becomes embodied."
 content_type: theological_essay
+audio: "audio/israel-the-church-part-2-covenant-people.mp3"
 theological_position: Eastern Orthodox
 word_count: "~920"
 series:
