@@ -5,6 +5,7 @@ draft: false
 description: "Psalm 102 says God pities us because He remembers we are dust. The thief on the cross is what that pity looks like up close."
 summary: "\"Dust you are, and to dust you shall return\" is the Old Testament's honest word about what we're made of. \"Today you will be with me in paradise,\" spoken to a dying thief, is the New Testament's answer — and the distance between those two sentences is theosis. Traced from Adam's formation in Genesis, through Psalm 102's pity for our fragile frame, to the cross, to Paul's promise about seeds and spiritual bodies."
 content_type: theological_essay
+audio: "audio/the-frame-he-remembers.mp3"
 theological_position: Eastern Orthodox
 word_count: "~2400"
 primary_scripture:
