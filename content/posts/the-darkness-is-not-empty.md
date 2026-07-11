@@ -5,6 +5,7 @@ draft: false
 description: "The modern world reads suffering as the place where God is absent. Orthodox Christianity says the opposite — and the Cross is the reason why."
 summary: "We have been trained to read pain as divine absence: if it hurts, God must be far. Orthodox Christianity makes a different and more demanding claim — that Christ entered suffering, filled it with Himself, and refused to let it remain what it was. That changes everything about how we suffer."
 content_type: theological_essay
+audio: "audio/the-darkness-is-not-empty.mp3"
 speaker: "Eastodox"
 channel: "@Eastodox"
 theological_position: Eastern Orthodox
