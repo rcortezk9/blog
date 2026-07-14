@@ -4,6 +4,7 @@ date: 2026-03-22
 draft: false
 series: "The Divine Services of the Orthodox Church"
 chapter: "Chapter VIII"
+weight: 9
 description: "A narrative walk through the hidden preparatory rites of the Divine Liturgy — from the priest's pre-dawn prayer of reconciliation through the vesting and the Proskomedia, the liturgy-before-the-liturgy in which the whole Church is arranged around Christ on a paten."
 summary: "Before the congregation assembles, another liturgy has already begun. In the hidden space before the service, the priest crosses thresholds of reconciliation and prayer, is clothed in identity that transcends his own person, and prepares the Eucharistic bread — cutting it with Isaiah 53 on his lips — until the whole Church stands arranged around Christ on a single disk of silver."
 primary_scripture:

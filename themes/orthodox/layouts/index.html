@@ -29,7 +29,7 @@
     </div>
   </section>
 
-  {{ $books := where .Site.RegularPages "Type" "books" }}
+  {{ $books := (where .Site.RegularPages "Type" "books").ByWeight }}
   {{ if $books }}
   <section class="recent-posts">
     <h2 class="section-heading">Reading Notes</h2>

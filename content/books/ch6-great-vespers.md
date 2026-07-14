@@ -4,6 +4,8 @@ date: 2026-03-22
 draft: false
 series: "The Divine Services of the Orthodox Church"
 chapter: "Chapter VI"
+audio: "audio/ch6-great-vespers.mp3"
+weight: 7
 description: "A narrative walk through Great Vespers — the ancient evening prayer of the Orthodox Church — from the opening blessing of creation through the lamp-lighting psalms, the oldest Christian hymn, and the intercessions that gather the whole world before God at the close of day."
 summary: "The sun is setting and the Church begins to pray. Great Vespers is not merely an evening service — it is a theological journey through the whole story of creation, fall, and redemption, enacted each evening in incense and psalm and light. This is a walk through the service from beginning to end, and through the theology of why the Church prays when darkness comes."
 primary_scripture:

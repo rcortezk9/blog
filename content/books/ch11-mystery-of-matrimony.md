@@ -4,6 +4,7 @@ date: 2026-03-22
 draft: false
 series: "The Divine Services of the Orthodox Church"
 chapter: "Chapter XI"
+weight: 12
 description: "A narrative walk through the Orthodox theology and rite of Holy Matrimony — from the Betrothal in the narthex through the Crowning, the reading of Ephesians 5, the Gospel of Cana, the common cup, and the sacred procession that seals the mystery."
 summary: "In the Orthodox Church, the wedding is not primarily about the two people standing at the center. It is about Christ the Bridegroom and His Church — and the man and woman who have gathered are becoming a visible sign of that eternal union. This is a walk through the Betrothal and Crowning, and through the theology that makes Christian marriage a vocation, a martyrdom, and a small church."
 primary_scripture:

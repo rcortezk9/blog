@@ -4,7 +4,7 @@
   {{ with .Content }}<div class="list-intro">{{ . }}</div>{{ end }}
 
   <div class="post-list">
-    {{ range .Pages }}
+    {{ range .Pages.ByWeight }}
     <article class="post-card book-card">
       <div class="book-series-label">{{ .Params.series }}{{ with .Params.chapter }} &mdash; {{ . }}{{ end }}</div>
       <h2 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
