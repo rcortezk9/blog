@@ -4,6 +4,7 @@ date: 2026-03-22
 draft: false
 series: "The Divine Services of the Orthodox Church"
 chapter: "Chapter IX"
+audio: "audio/ch9-prayer-for-the-departed.mp3"
 weight: 10
 description: "A narrative walk through the Orthodox theology and practice of prayer for the departed — from the biblical and patristic foundations through the memorial calendar, the Kolyva, and the hagiographical accounts that demonstrate God's mercy extends even to Hades."
 summary: "Death does not dissolve the bonds of love that unite the members of the Church. The Orthodox faithful pray for their dead — not as a later ecclesiastical invention, but as a practice rooted in Scripture, the apostolic Fathers, and two thousand years of accumulated witness that God's mercy crosses even the threshold of death."

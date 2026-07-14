@@ -25,6 +25,14 @@
         {{ end }}
       </div>
       {{ end }}
+
+      {{/* Audio narration */}}
+      {{ with .Params.audio }}
+      <div class="post-audio">
+        <span class="post-audio-label">Listen to this chapter</span>
+        <audio controls preload="none" src="{{ . | relURL }}"></audio>
+      </div>
+      {{ end }}
     </header>
 
     <div class="post-body book-body">

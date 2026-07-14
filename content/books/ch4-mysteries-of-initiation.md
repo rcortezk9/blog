@@ -4,6 +4,7 @@ date: 2026-03-11
 draft: false
 series: "The Divine Services of the Orthodox Church"
 chapter: "Chapter IV"
+audio: "audio/ch4-mysteries-of-initiation.mp3"
 weight: 5
 description: "A narrative walk through the Orthodox rites of Baptism, Chrismation, and first Communion — what happens in each moment, and what the Church has always understood those moments to mean."
 summary: "In the Orthodox Church, initiation into the faith is not a ceremony but a death. This is a narrative walk through the rites of Baptism, Chrismation, and first Communion — from the pre-dawn exorcisms to the moment a newly illumined soul receives the Body and Blood of Christ for the first time."

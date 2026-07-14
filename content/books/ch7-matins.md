@@ -4,6 +4,7 @@ date: 2026-03-22
 draft: false
 series: "The Divine Services of the Orthodox Church"
 chapter: "Chapter VII"
+audio: "audio/ch7-matins.mp3"
 weight: 8
 description: "A narrative walk through Matins (Orthros) — the great morning prayer of the Orthodox Church — from the Six Psalms read at the Last Judgment through the Resurrection Gospel and the Great Doxology that greets the dawn."
 summary: "Matins begins in darkness. The six psalms are chanted with complete stillness — tradition says they are read at the very moment of the Last Judgment. Then the service turns: the Lord is God and hath appeared unto us. This is a walk through the theology of morning prayer, from penitential depth to the blazing light of the Great Doxology."

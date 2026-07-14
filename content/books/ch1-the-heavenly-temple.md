@@ -4,6 +4,7 @@ date: 2026-03-22
 draft: false
 series: "The Divine Services of the Orthodox Church"
 chapter: "Chapter I"
+audio: "audio/ch1-the-heavenly-temple.mp3"
 weight: 2
 description: "A walk through the theology of the Orthodox church building — from the bishop's role as icon of Christ to the three zones of sacred space, the meaning of the iconostasis, and what it means that every church is 'an earthly heaven.'"
 summary: "To enter an Orthodox church is to cross a threshold not merely from street to building but from the world as ordinarily experienced to the world as it truly is: oriented toward God, saturated with His presence, ordered according to the pattern of heaven itself. This is a walk through the theology of sacred space, the bishop as icon of Christ, and the vestments that clothe the worship of the Church."

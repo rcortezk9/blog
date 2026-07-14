@@ -4,6 +4,7 @@ date: 2026-03-22
 draft: false
 series: "The Divine Services of the Orthodox Church"
 chapter: "Chapter X"
+audio: "audio/ch10-sanctification-of-water.mp3"
 weight: 11
 description: "A narrative walk through the Orthodox theology of holy water — from the Spirit hovering over the primordial deep through the Baptism of Christ at the Jordan, the Great Blessing of Theophany, and the witness of St. Luke of Crimea that holy water is the best medicine."
 summary: "The Spirit of God hovered over the waters at creation. Christ descended into the Jordan at His Baptism and sanctified the whole element. Every vessel of holy water carries within it the Jordan — and the cosmic redemption the Jordan began. This is a walk through the theology and practice of the Great Blessing of Waters."

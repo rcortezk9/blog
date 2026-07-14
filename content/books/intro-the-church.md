@@ -4,6 +4,7 @@ date: 2026-03-22
 draft: false
 series: "The Divine Services of the Orthodox Church"
 chapter: "Introduction"
+audio: "audio/intro-the-church.mp3"
 weight: 1
 description: "Before any rite, any service, any mystery — there is the Church herself. This is a walk through the foundational theology of what the Church is, what she confesses, and what she exists to do."
 summary: "The Orthodox Church does not begin with worship instructions. She begins with a claim so vast it reshapes everything that follows: the Church is the visible and audible icon of God in the world. This is a walk through the four marks, the living Tradition, the threefold path toward theosis, and the Eucharist as the Church's re-entry into Paradise."

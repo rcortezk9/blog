@@ -4,6 +4,7 @@ date: 2026-03-22
 draft: false
 series: "The Divine Services of the Orthodox Church"
 chapter: "Chapter V"
+audio: "audio/ch5-mystery-of-repentance.mp3"
 weight: 6
 description: "A narrative walk through the Orthodox understanding of Confession — not as a courtroom of guilt but as a hospital of healing, from the theology of sin as fractured relationship to the spiritual father as physician, the rite of absolution, and what metanoia actually means."
 summary: "In the Orthodox Church, Confession is not a courtroom where guilt is adjudicated. It is a hospital where the sick are healed. This is a walk through the Mystery of Repentance — from the resurrection gift given by Christ on Easter evening to the absolution prayer, from the relational theology of sin to the goal of total transformation toward God."
