@@ -3,6 +3,7 @@ title: "Why the Orthodox Church Rejects Sola Scriptura — And What Scripture Ac
 date: 2026-04-19
 draft: false
 description: "A comprehensive Orthodox response to Sola Scriptura — arguing from scripture, ecclesiology, patristics, and the canon that the written text and the living apostolic tradition are two forms of one inseparable deposit."
+audio: "audio/sola-scriptura-orthodox-response.mp3"
 summary: "The Orthodox objection to Sola Scriptura is not a defense of human tradition against divine scripture. It is a more historically grounded account of what scripture is, where it came from, and how it has always functioned in the Church — tracing five interlocking arguments from epistemology, the New Testament itself, Christ's promises about the Church, the canon problem, and the unanimous witness of the earliest Christians."
 primary_scripture:
   - 2 Thessalonians 2:15

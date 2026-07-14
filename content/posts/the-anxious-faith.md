@@ -3,6 +3,7 @@ title: "The Anxious Faith: How Calvinism Produces What It Accuses Orthodoxy Of"
 date: 2026-06-06
 draft: false
 description: "Protestant critics charge that Orthodox exclusivism causes 'ecclesial anxiety.' But a rigorous look at Calvinist TULIP doctrine reveals that it is Calvinism — not Orthodoxy — that leaves its adherents without assurance, without a visible Church, and without a coherent account of salvation."
+audio: "audio/the-anxious-faith.mp3"
 summary: "There is a complaint circulating in Protestant online discourse that Orthodox Christians cause 'ecclesial anxiety' by claiming to be the one true Church. This post examines that complaint and finds it ironic to the point of collapse. When you follow Calvinist doctrine to its logical conclusions — through TULIP, through the invisible church, through Calvin's own teaching on evanescent grace — you find a system that cannot tell you whether you are saved, whether your repentance is real, or whether Christ died for you at all. Orthodoxy, by contrast, offers concrete sacramental mechanisms and a visible body. The complaint proves the opposite of what it intends."
 content_type: theological_essay
 theological_position: Eastern Orthodox

@@ -3,6 +3,7 @@ title: "Punishment vs. Rescue: An Orthodox Analysis of the Atonement"
 date: 2026-03-19
 draft: false
 description: "The cross is not primarily a legal transaction satisfying divine punishment. It is God entering death itself to destroy it from within."
+audio: "audio/cross-punishment-or-rescue.mp3"
 summary: "Most Western Christians have already answered the question of what the cross accomplished — before they ever consciously asked it. The answer arrived with the air: guilt, penalty, substitution, acquittal. The Orthodox tradition proposes something older, stranger, and more complete."
 content_type: theological_essay
 theological_position: Eastern Orthodox

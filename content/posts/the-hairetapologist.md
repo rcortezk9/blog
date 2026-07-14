@@ -3,6 +3,7 @@ title: "Anti-Islam Isn't Enough: The Hairetapologist and What Every Catechumen S
 date: 2026-05-19
 draft: false
 description: "A new term for an old problem: the online apologist who uses the form of Christian debate to spread heresy and target those on the way into the Church."
+audio: "audio/the-hairetapologist.mp3"
 summary: "A specific pattern is emerging in online Christian discourse: Protestant apologetics channels trained in Muslim-Christian debate are repurposing their toolkit to destabilize Orthodox catechumens and inquirers. This post coins a term for the figure behind this pattern, traces its patristic roots, documents a recent case, and gives catechumens the tools to recognize and resist it."
 content_type: theological_essay
 theological_position: Eastern Orthodox
