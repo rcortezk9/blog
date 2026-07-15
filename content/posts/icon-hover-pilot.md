@@ -11,4 +11,4 @@ Pilot for the animated hover icon feature. Hover over the icon below — it shou
 
 {{< icon-hover slug="john-chrysostom" alt="St. John Chrysostom" caption="St. John Chrysostom" >}}
 
-Assets not generated yet — `static/icons/john-chrysostom.mp4` and `static/icons/john-chrysostom-poster.jpg` are still pending the Higgsfield pipeline.
+Generated via Higgsfield: end frame and start frame from `text2image_soul_v2`, interpolated with `seedance1_5`. Still `draft: true` pending review — flip to `false` to publish once it looks right in the browser.
