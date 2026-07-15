@@ -1,6 +1,10 @@
 {{ $slug := .Get "slug" }}
 {{ $alt := .Get "alt" | default $slug }}
 {{ $caption := .Get "caption" }}
+{{ $video := resources.Get (printf "icons/%s.mp4" $slug) }}
+{{ $poster := resources.Get (printf "icons/%s-poster.jpg" $slug) }}
+{{ if $video }}{{ $video = $video | fingerprint }}{{ end }}
+{{ if $poster }}{{ $poster = $poster | fingerprint }}{{ end }}
 <figure class="icon-hover">
   <video
     class="icon-hover-video"
@@ -8,10 +12,10 @@
     loop
     playsinline
     preload="none"
-    poster="{{ printf "icons/%s-poster.jpg" $slug | relURL }}"
+    {{ with $poster }}poster="{{ .RelPermalink }}"{{ end }}
     aria-label="{{ $alt }}"
     tabindex="0">
-    <source src="{{ printf "icons/%s.mp4" $slug | relURL }}" type="video/mp4">
+    {{ with $video }}<source src="{{ .RelPermalink }}" type="video/mp4">{{ end }}
   </video>
   {{ with $caption }}<figcaption class="icon-hover-caption">{{ . }}</figcaption>{{ end }}
 </figure>
