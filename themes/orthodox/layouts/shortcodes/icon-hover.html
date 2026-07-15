@@ -1,0 +1,17 @@
+{{ $slug := .Get "slug" }}
+{{ $alt := .Get "alt" | default $slug }}
+{{ $caption := .Get "caption" }}
+<figure class="icon-hover">
+  <video
+    class="icon-hover-video"
+    muted
+    loop
+    playsinline
+    preload="none"
+    poster="{{ printf "icons/%s-poster.jpg" $slug | relURL }}"
+    aria-label="{{ $alt }}"
+    tabindex="0">
+    <source src="{{ printf "icons/%s.mp4" $slug | relURL }}" type="video/mp4">
+  </video>
+  {{ with $caption }}<figcaption class="icon-hover-caption">{{ . }}</figcaption>{{ end }}
+</figure>

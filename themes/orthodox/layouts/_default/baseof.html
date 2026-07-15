@@ -68,5 +68,18 @@
       });
     })();
   </script>
+  <script>
+    (function() {
+      document.querySelectorAll('.icon-hover-video').forEach(function(video) {
+        var wrapper = video.closest('.icon-hover');
+        function play() { video.currentTime = 0; video.play(); }
+        function stop() { video.pause(); video.currentTime = 0; }
+        wrapper.addEventListener('mouseenter', play);
+        wrapper.addEventListener('mouseleave', stop);
+        video.addEventListener('focus', play);
+        video.addEventListener('blur', stop);
+      });
+    })();
+  </script>
 </body>
 </html>
