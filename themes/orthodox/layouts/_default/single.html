@@ -44,12 +44,22 @@
       </div>
       {{ end }}
 
+      {{/* Animated video (narrated) */}}
+      {{ with .Params.video }}
+      <div class="post-video">
+        <span class="post-video-label">Watch this post</span>
+        <video controls preload="none" playsinline src="{{ . | relURL }}"></video>
+      </div>
+      {{ end }}
+
       {{/* Audio narration */}}
       {{ with .Params.audio }}
+      {{ if not $.Params.video }}
       <div class="post-audio">
         <span class="post-audio-label">Listen to this post</span>
         <audio controls preload="none" src="{{ . | relURL }}"></audio>
       </div>
+      {{ end }}
       {{ end }}
     </header>
 

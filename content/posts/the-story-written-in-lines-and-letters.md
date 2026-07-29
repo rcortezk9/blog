@@ -6,6 +6,7 @@ description: "The Golgotha Cross encodes the entire story of salvation in a sing
 summary: "Every line, letter, and angle of the Orthodox Golgotha Cross tells a piece of one story — from the death that entered the world through Adam to the moment that death itself was conquered. This is that story."
 content_type: theological_essay
 audio: "audio/the-story-written-in-lines-and-letters.mp3"
+video: "video/the-story-written-in-lines-and-letters.mp4"
 theological_position: Eastern Orthodox
 word_count: "~2500"
 primary_scripture:

@@ -297,6 +297,32 @@ img { max-width: 100%; height: auto; }
   accent-color: var(--accent);
 }
 
+/* ---- Narrated video ---- */
+.post-video {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-top: 0.9rem;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--scripture-bg);
+}
+
+.post-video-label {
+  font-family: var(--font-head);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+
+.post-video video {
+  width: 100%;
+  border-radius: 6px;
+  background: #000;
+}
+
 /* ---- Post Body — Typography ---- */
 .post-body {
   font-size: 1.05rem;
