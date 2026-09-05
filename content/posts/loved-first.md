@@ -2,9 +2,9 @@
 title: "Loved First: On Discovering That My Love for God Was Never the Beginning"
 date: 2026-09-05
 draft: false
-description: "I spent a long time trying to produce love for God out of my own chest. The verse that unmade that effort says the opposite: we love Him because He first loved us."
+description: "A friend asked me why I love Jesus and I answered badly. The verse that corrected me says the love was never mine to start: we love Him because He first loved us."
 audio: "audio/loved-first.mp3"
-summary: "There is a question that sounds simple and is not: why do I love God? I had been answering it as though the love began with me — as though it were a feeling I owed and had to manufacture. Scripture says the reverse. His love is not the reward for mine; it is the origin of it. And once the order is set right, the daily question changes too — from how do I feel more, to what do I seek first."
+summary: "Someone asked me across a table why I love Jesus, and every answer I gave was a debt — He made me, He saved me, I owe Him this. All true, and all of it put me at the origin of the love. Scripture says the reverse. His love is not the reward for mine; it is the source of it. And once that order is set right, the daily question changes too — from how do I feel more, to what do I seek first."
 content_type: theological_essay
 speaker: "Corpus synthesis"
 channel: "Corpus synthesis"
@@ -22,26 +22,30 @@ tags:
   - divine-love
   - incarnation
   - grace
-  - catechumen
+  - baptism
   - prayer
   - kingdom-of-god
 ---
 
-It is early, and the lamp is lit, and I am standing in front of the icons doing what I have been told to do. The words are the right words. I have said them enough times now that my mouth arrives at the end of a line before my mind does. And somewhere in the middle of it, the question surfaces the way it always surfaces — not as an argument, more like a hand on the shoulder: *do you actually love Him?*
+A friend asked me, across a table, with no edge in it at all: *why do you love Jesus?*
 
-I check. That is the honest word for what I do: I check. I look inward for the warmth I assume ought to be there, some heat in the chest that would settle the matter, and I find the room quiet and my attention already halfway toward the day's first obligation. So I try harder. I attempt to summon it — to feel toward God the way I would feel toward someone I have missed. And nothing comes, or something comes that I do not trust, and I finish the prayers with the suspicion that I have failed a test that everyone else passes.
+He was not arguing. That is what made it land. He had watched me change — watched me get baptized, watched the fasting reorganize my week, watched me leave a table early on a Saturday night because of where I had to be in the morning — and he wanted to know what was underneath it. It is the fairest question anyone has ever asked me about my faith. And I answered it badly.
 
-It took me an embarrassingly long time to notice what was wrong with that whole procedure. The problem was not that the feeling would not come. The problem was that I had made myself the source of it. In my picture, love for God was something I generated, offered upward, and was then evaluated on — and the entire weight of the relationship rested on how much of it I could produce before breakfast.
+I said what I had always said. He made me. He died for me. He is worthy of it. Every one of those sentences is true, and I could hear, even as they left my mouth, that they were not answers to what he had asked. He had asked why I love Him. I had recited reasons why I *should*. Those are different sentences, and my friend, who is not a theologian and did not need to be, heard the difference and let it sit there politely between us.
+
+I went home bothered. Not because I doubted the love — I have been in the Church long enough now to know it is there, the way you know a room is warm without checking a thermometer. I was bothered because I could not account for it. I had been carrying something for years without ever once asking where it came from.
+
+And when I finally sat down with the question, what I found was that I had the whole thing pointed the wrong way. Every answer I had given him ran outward from me: I owe, I offer, I give. I had made myself the source. In that picture, love for God is something I generate and send upward, and the entire weight of the relationship rests on how much of it I can produce on a given morning.
 
 Scripture says the opposite, and it says it in a sentence short enough to miss. *We love Him because He first loved us* (1 John 4:19). Not "we should love Him." Not "if we love Him, He will love us back." Because He first loved us. The love did not start in my chest. It arrived there.
 
 ## The Question I Could Not Answer
 
-For a long time I could not have told you why I loved God. I could tell you why I believed in Him — there were arguments, and books, and a slow accumulation of things that stopped making sense any other way. But belief and love are not the same operation, and the second question kept coming back with nothing behind it.
+The strange thing is that I could have told my friend, in some detail, why I *believe*. There were arguments, and books, and a slow accumulation of things that stopped making sense any other way, and then a font and a chrismation and a first communion. That road I can map. But belief and love are not the same operation. You can hold a thing to be true with your whole mind and still not be able to say why you would die for it.
 
-The answers I reached for were all debts. He made me, so I owe Him this. He saved me, so I owe Him this. He is worthy of it, and I am not the sort of person who withholds what is owed. Every one of those sentences is true, and not one of them produced a single degree of actual warmth. They produced obligation, which is a different substance entirely, and obligation has a way of curdling when you leave it out in the open too long. You start to resent the ledger. Then you feel guilty for resenting it. Then you pray harder to fix the guilt, which was never the problem.
+So the answers I reached for were all debts, because a debt is the only shape I had. He made me, so I owe Him this. He saved me, so I owe Him this. He is worthy of it, and I am not the sort of man who withholds what is owed. Not one of those produced a single degree of actual warmth. They produced obligation, which is a different substance entirely, and obligation has a way of curdling when you leave it out in the open too long. You start to resent the ledger. Then you feel guilty for resenting it. Then you pray harder to fix the guilt, which was never the problem.
 
-What I could not see is that a debt-shaped love has me at the origin. It runs outward from me toward God, and its quality depends entirely on the raw material available in me on a given morning — my sleep, my mood, my week. On a good day I could work up something that felt like devotion. On a bad day I had nothing to give and concluded, reasonably enough, that I was failing.
+What I could not see is that a debt-shaped love has me at the origin. It runs outward from me toward God, and its quality depends entirely on the raw material available in me on a given morning — my sleep, my mood, my week. On a good day I could work up something that felt like devotion. On a bad day I had nothing to give and concluded, reasonably enough, that I was failing. Baptism did not exempt me from this. It only meant I was making the error inside the Church instead of outside it.
 
 And underneath both the good days and the bad ones sat an assumption I had never once examined: that God's disposition toward me was somehow keeping pace with mine toward Him. That He was, in some sense, waiting to see what I would bring.
 
@@ -61,7 +65,7 @@ And then he says the sentence that reorganizes everything, because it moves from
 
 This is the piece I had genuinely never absorbed, and absorbing it changed the temperature of prayer. If God *is* love, then His love toward me is not a verdict He renders after review. It is not weather. It cannot cool because I have been distracted for a week, any more than fire can decide to stop being hot while remaining fire. St. John of Damascus (c. 749) makes exactly this point when he insists that God's goodness is not something He possesses but something He is — He does not acquire it, cannot increase in it, cannot be talked out of it.
 
-Which means the room was never as quiet as I thought it was on those mornings. I was standing in a house that was already full and checking my own pockets to see if I had brought anything.
+Which means that when my friend asked his question, I went looking in the wrong place for the answer. I was checking my own pockets to see what I had brought, while standing in a house that was already full.
 
 St. Ignatius of Antioch (c. 107 AD), writing on the road to his own execution, says a strange thing about this. *My love has been crucified*, he tells the Romans — and he does not mean his affections have died. He means his love has a name and a body and a location in history. It is a Person, and that Person went to a cross. Ignatius is not describing a feeling he generated on the way to the arena. He is describing something that had already taken hold of him, so completely that he could no longer locate the seam between his love and the One who was its source.
 
@@ -75,7 +79,7 @@ Christianity does not leave it abstract. This is the whole scandal of it. *And t
 
 St. Athanasius (c. 298–373) puts the logic plainly: we had turned away, and we could not turn ourselves back, and so the Word who made us came into what He had made and took our condition on Himself. Not as a gesture. As a rescue that required Him to go all the way down into the thing that had us — into death itself — because that was where we were. And St. Irenaeus (c. 180), earlier still, describes Him passing through every stage of human life, sanctifying each one from the inside, so that there is no part of what it is to be a person that He has not entered and healed by entering.
 
-This is why the Incarnation is not a doctrine I hold at a distance and nod at. It is the answer to the question I was standing in front of the icons trying to force. I was trying to feel my way toward an idea. What Christianity offers is not an idea. It is a Person who arrived first.
+This is why the Incarnation is not a doctrine I hold at a distance and nod at. It is the actual answer to my friend's question, and it was sitting there the whole time I was fumbling for reasons. He asked why I love Jesus. The answer is not a quality I discovered in myself. It is that Jesus came and got me, and that He was moving toward me before I had any opinion about Him at all. What Christianity offers is not an idea. It is a Person who arrived first.
 
 > We love God because He loved us first. He is Love itself, and in Christ that love became flesh — suffering, dying, and rising to unite us to Him. Our love for God, then, is always a response, not an origin.
 
@@ -83,7 +87,7 @@ Every clause there matters, but the last one is the hinge. *Always a response.* 
 
 And notice what the Resurrection adds, because without it this stays a beautiful tragedy. He suffered and died — and then He rose, and did not leave the flesh behind when He did. Human nature went up with Him. The point was never only that God pitied us from close range. The point is union: that we are joined to Him, made partakers, taken into the life that He simply is. The love did not come near in order to be admired. It came near in order to take us in.
 
-So when I stand there and find nothing in my chest, I have been asking the wrong instrument for a reading. The question is not *what have I generated?* The question is *what has already been done, and am I turned toward it?*
+So when I go looking inward for evidence of love and come back holding nothing, I have been asking the wrong instrument for a reading. The question is not *what have I generated?* The question is *what has already been done, and am I turned toward it?*
 
 ## Then What Do I Do Tomorrow Morning?
 
@@ -95,7 +99,7 @@ Put the two verses side by side and they are not two separate instructions. They
 
 I find it clarifying that Christ does not say *feel first*. He says seek. Seeking is something I can do on a morning when I have nothing. It does not require a mood as its raw material — it requires a direction and a body willing to go that way.
 
-In practice, in the Church, this is not vague. It is a rule of prayer kept on the mornings it feels like reciting a grocery list, because the rule is not a report on my interior state; it is me putting myself where the love is. It is the fast, which is not a fee paid to God but the loosening of a grip so that my hands are free for something else. It is confession, where the shame I would rather manage privately gets spoken out loud to a priest and stops being the thing that runs me. It is standing through the Liturgy, in a body, with other people, receiving what I did not make. Every one of these is a form of seeking, and not one of them requires me to feel anything in particular before I begin.
+In practice, in the Church, this is not vague. It is a rule of prayer kept on the mornings it feels like reciting a grocery list, because the rule is not a report on my interior state; it is me putting myself where the love is. It is the fast, which is not a fee paid to God but the loosening of a grip so that my hands are free for something else. It is confession, where the shame I would rather manage privately gets spoken out loud to a priest and stops being the thing that runs me. It is walking up to the chalice on a Sunday when I have been irritable all week and have not earned the right to be there, and receiving anyway, because the Body and Blood of Christ are not a prize for the composed. Every one of these is a form of seeking, and not one of them requires me to feel anything in particular before I begin.
 
 And there is a counterfeit here that I have fallen into more than once, so I will name it. It is possible to take all this machinery and aim it at the wrong target — to seek, very diligently, *the feeling of being loved* rather than the Kingdom. It looks nearly identical from outside. Same prayers, same fasting, same attendance. But the attention has quietly turned around. I am no longer looking at Christ; I am monitoring myself for evidence of Christ, checking the gauge after every service to see whether the level went up. Prayer becomes a mirror. And a mirror will show you your own face for as long as you are willing to stand there, which is the whole trouble with it.
 
@@ -103,14 +107,14 @@ The corrective is in the verse itself. Seek *the Kingdom* — not the sensation 
 
 ## What the Door Looks Like Now
 
-So it is early again, and the lamp is lit, and I am standing in front of the icons, and there is nothing much in my chest.
+I have not gone back to my friend yet. When I do, I know what I want to say, and it is not any of the three answers I gave him at the table.
 
-The scene has not changed. What it means has changed completely. That quiet is not the measure of God's disposition toward me, and it is not the verdict on whether I love Him. It is only the reading on an instrument I was never meant to be consulting — my own interior weather, which is genuine but is not the point and never was. The love in the room did not come from me and was never waiting on my supply of it.
+I want to tell him that he asked the right question and I gave him the wrong kind of answer — that I handed him a list of reasons a person *should* love God, which is what you produce when you are searching your own chest and finding it emptier than you hoped. And that the true answer is not located in me at all. I love Jesus because He loved me first, and He did it before I was in any condition to be loved, and He did not do it from a distance. He came into a body and a century and a country. He was hungry. He was betrayed by a friend at a table not unlike ours. He went down into death, and came back up, and did not leave our nature behind when He came.
 
-I no longer stand there trying to produce something. I stand there as someone answering. The prayers are not an offering I am assembling out of raw material I do not have; they are the response of a person who has already been reached, and who is turning toward the direction it came from. Some mornings the turning is accompanied by warmth. Most mornings it is not. The turning is the thing.
+That is not a feeling I worked up. It is something that happened, whether or not I am warm on a Tuesday. And I did not have to reach it — it reached me, at the font, and it keeps reaching me at the chalice, and my love is only the motion of turning around to face where it is coming from.
 
-What I would say to anyone standing in that same quiet, checking their own chest and finding it unimpressive: you are not failing a test. You may simply have the order backwards, the way I did. You are not being asked to originate a love strong enough to reach God. You are being asked to notice one that has already crossed the whole distance to reach you, took flesh to do it, went down into death, and came back up bringing your nature with Him — and then to spend a day seeking the Kingdom that this love opened.
+What I would say to anyone checking their own chest and finding it unimpressive — inside the Church or still standing at the door of it — is that you are not failing a test. You may simply have the order backwards, the way I did for years after my baptism. You are not being asked to originate a love strong enough to reach God. You are being asked to notice one that has already crossed the entire distance to reach you, and then to spend the day seeking the Kingdom it opened.
 
 *We love Him because He first loved us.*
 
-The door was never something I had to build. It was opened from the other side, a long time ago, at considerable cost, and it has not closed since. All that is asked this morning is that I walk toward it.
+The door was never something I had to build. It was opened from the other side, a long time ago, at considerable cost, and it has not closed since. All that is asked of me this morning is that I keep walking through it.
