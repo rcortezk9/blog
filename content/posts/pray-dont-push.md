@@ -1,5 +1,5 @@
 ---
-title: "The Son of These Tears: What the Church Says When the Window Has Closed"
+title: "Pray, Don't Push: The Church's Answer for the Child Who Drifted"
 date: 2026-09-16
 draft: false
 description: "A letter to the version of you who missed the window, or watched a child raised in faith walk away anyway — on Monica's shifting posture, the Prodigal Son, and the Church's structured path for those who arrive late."
