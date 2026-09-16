@@ -1,5 +1,5 @@
 ---
-title: "The Word Eli Never Heard: A Letter on Honor, Anger, and Provoking a Child to Wrath"
+title: "Formation, Not Control: What Chrysostom Asks of Parents Who Correct"
 date: 2026-09-16
 draft: false
 description: "A letter to the version of you still in the wound — on what Mark 7:10 actually asks of a child, and what Ephesians 6 actually asks of a parent."
