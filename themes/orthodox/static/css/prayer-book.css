@@ -4,7 +4,7 @@
    --font-body, --font-head).
    ============================================================ */
 
-.prayer-page { max-width: 760px; margin: 0 auto; }
+.prayer-page { max-width: var(--max-width); margin: 0 auto; }
 
 .prayer-cover {
   text-align: center;
@@ -151,25 +151,59 @@
   position: absolute;
   bottom: 3.6rem;
   right: 0;
-  min-width: 220px;
+  width: 270px;
+  max-height: 70vh;
+  overflow-y: auto;
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: 8px;
   box-shadow: 0 4px 16px rgba(0,0,0,0.2);
-  padding: 0.7rem 0;
+  padding: 0.5rem 0;
   display: none;
 }
 .jump-menu.open .jump-menu-panel { display: block; }
 
+.jump-menu-panel .jump-group-label {
+  display: block;
+  padding: 0.6rem 1.1rem 0.2rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--heading);
+  font-weight: 700;
+  border-top: 1px solid var(--border);
+}
+.jump-menu-panel .jump-group-label:first-child { border-top: none; padding-top: 0.2rem; }
+
 .jump-menu-panel a {
   display: block;
-  padding: 0.5rem 1.1rem;
-  font-size: 0.78rem;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+  padding: 0.4rem 1.1rem;
+  font-size: 0.76rem;
+  letter-spacing: 0.04em;
   color: var(--muted);
 }
 .jump-menu-panel a:hover { color: var(--heading); text-decoration: none; background: var(--scripture-bg); }
+
+.jump-menu-panel a.jump-section-link {
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+}
+
+.jump-menu-panel a.jump-prayer-link {
+  padding-left: 1.7rem;
+  font-size: 0.73rem;
+  font-style: italic;
+}
+
+.jump-menu-panel a.jump-top-link {
+  border-top: 1px solid var(--border);
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  margin-top: 0.3rem;
+  padding-top: 0.6rem;
+}
 
 @media print {
   .jump-menu, .quick-links, .site-header, .site-footer, .theme-toggle { display: none !important; }
