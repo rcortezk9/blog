@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Reading — The Catechumen's Journal</title>
+<meta name="description" content="Morning Lamp — today's Orthodox daily Bible readings.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="stylesheet" href="/css/main.css">
+<style>
+  .reading-page { max-width: 1100px; margin: 0 auto; }
+
+  .reading-intro {
+    text-align: center;
+    padding: 0.5rem 0 1.2rem;
+    border-bottom: 2px solid var(--accent);
+    margin-bottom: 1.2rem;
+  }
+  .reading-intro h1 {
+    font-family: var(--font-head);
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: var(--heading);
+    letter-spacing: 0.04em;
+    margin: 0 0 0.3rem;
+  }
+  .reading-intro p {
+    font-style: italic;
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+  .reading-intro a {
+    font-family: var(--font-head);
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .reading-frame-wrap {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--scripture-bg);
+  }
+
+  #reading-frame {
+    display: block;
+    width: 100%;
+    height: 78vh;
+    min-height: 480px;
+    border: none;
+  }
+
+  .reading-fallback {
+    display: none;
+    text-align: center;
+    padding: 3rem 1.5rem;
+    font-style: italic;
+    color: var(--muted);
+  }
+  .reading-fallback a { font-style: normal; }
+
+  @media (max-width: 600px) {
+    #reading-frame { height: 70vh; }
+  }
+</style>
+<script>
+  (function() {
+    var saved = localStorage.getItem('theme');
+    var pref = (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : saved;
+    if (pref === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+  })();
+</script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="site-nav">
+      <a class="site-name" href="/">The Catechumen's Journal</a>
+      <div class="nav-links">
+        <a href="/posts/">Posts</a>
+        <a href="/books/">Books</a>
+        <a href="/series/">Series</a>
+        <a href="/wiki/">Wiki</a>
+        <a href="/prayer-book/">Prayer Book</a>
+        <a href="/daily-reading/" aria-current="page">Daily Reading</a>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">&#9728;</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="site-main">
+    <div class="reading-page">
+
+      <div class="reading-intro">
+        <h1>Morning Lamp &mdash; Today&rsquo;s Readings</h1>
+        <p>The daily lectionary readings, updated every morning.
+          <a href="https://rcortezk9.github.io/morning-lamp/" target="_blank" rel="noopener">Open in a new tab &#8599;</a>
+        </p>
+      </div>
+
+      <div class="reading-frame-wrap">
+        <iframe id="reading-frame" src="https://rcortezk9.github.io/morning-lamp/" title="Morning Lamp — Daily Bible Readings" loading="lazy"></iframe>
+        <div class="reading-fallback" id="reading-fallback">
+          <p>The reading couldn&rsquo;t load here &mdash;
+            <a href="https://rcortezk9.github.io/morning-lamp/" target="_blank" rel="noopener">open Morning Lamp directly &#8599;</a>
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>The Catechumen's Journal &mdash; <em>A daily companion for Orthodox Christian life.</em></p>
+      <p class="footer-copy">&copy; 2026</p>
+    </div>
+  </footer>
+
+  <script>
+    (function() {
+      var btn = document.getElementById('theme-toggle');
+      var html = document.documentElement;
+      function sync() {
+        var dark = html.getAttribute('data-theme') === 'dark';
+        btn.innerHTML = dark ? '&#9789;' : '&#9728;';
+        btn.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+      }
+      sync();
+      btn.addEventListener('click', function() {
+        var dark = html.getAttribute('data-theme') === 'dark';
+        if (dark) {
+          html.removeAttribute('data-theme');
+          localStorage.setItem('theme', 'light');
+        } else {
+          html.setAttribute('data-theme', 'dark');
+          localStorage.setItem('theme', 'dark');
+        }
+        sync();
+      });
+    })();
+  </script>
+  <script>
+    (function() {
+      var frame = document.getElementById('reading-frame');
+      var fallback = document.getElementById('reading-fallback');
+      var loaded = false;
+      frame.addEventListener('load', function() { loaded = true; });
+      setTimeout(function() {
+        if (!loaded) {
+          frame.style.display = 'none';
+          fallback.style.display = 'block';
+        }
+      }, 4000);
+    })();
+  </script>
+</body>
+</html>
