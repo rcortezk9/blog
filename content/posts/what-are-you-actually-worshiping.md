@@ -1,5 +1,5 @@
 ---
-title: "Everybody Worships Something: A 19th-Century Priest Beat David Foster Wallace to It"
+title: "What Are You Actually Worshiping? (You Already Know)"
 date: 2026-09-16
 draft: false
 description: "David Foster Wallace told a graduating class that everyone worships something, and whatever you choose will eventually eat you alive. A Russian priest said the same thing a century earlier — and then did what Wallace couldn't: he named what's actually worth worshiping."
