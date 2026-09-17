@@ -1,6 +1,6 @@
 ---
 title: "What Are You Actually Worshiping? (You Already Know)"
-date: 2026-09-16
+date: 2026-09-17
 draft: false
 description: "David Foster Wallace told a graduating class that everyone worships something, and whatever you choose will eventually eat you alive. A Russian priest said the same thing a century earlier — and then did what Wallace couldn't: he named what's actually worth worshiping."
 summary: "Secular wisdom has quietly rediscovered a very old religious claim: everyone worships something, and the wrong object will eventually own you. St. John of Kronstadt made the same diagnosis in the 19th century, then supplied the one thing modern self-help can't — an actual destination for the hunger."
