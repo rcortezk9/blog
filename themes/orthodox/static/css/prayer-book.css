@@ -4,7 +4,7 @@
    --font-body, --font-head).
    ============================================================ */
 
-.prayer-page { max-width: var(--max-width); margin: 0 auto; }
+.prayer-page { max-width: 1040px; margin: 0 auto; }
 
 .prayer-cover {
   text-align: center;
@@ -78,8 +78,13 @@
   margin: -0.1rem 0 0.8rem;
 }
 
-.prayer-text p { margin: 0 0 0.9rem; }
-.prayer-text p.verse { margin: 0 0 0.35rem; }
+.prayer-text p {
+  margin: 0 0 0.9rem;
+  font-size: 1.12rem;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.prayer-text p.verse { margin: 0 0 0.45rem; }
 
 .rubric { color: var(--italic); font-style: italic; font-size: 0.93rem; }
 .repeat { font-size: 0.85em; color: var(--muted); font-style: italic; }
