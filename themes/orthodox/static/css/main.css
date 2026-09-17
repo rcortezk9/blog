@@ -759,5 +759,6 @@ img { max-width: 100%; height: auto; }
   .post-title { font-size: 1.5rem; }
   .post-body h2 { font-size: 1.2rem; }
   .post-body h3 { font-size: 1rem; }
-  .nav-links { gap: 1rem; }
+  .site-nav { flex-wrap: wrap; row-gap: 0.6rem; }
+  .nav-links { flex-wrap: wrap; gap: 0.7rem 1rem; }
 }
