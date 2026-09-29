@@ -123,6 +123,29 @@ html[data-theme="dark"] .prayer-page {
 }
 .ornament::before { content: '✦  ☦  ✦'; }
 
+/* ---- Collapsible psalms (The Six Psalms) ---- */
+.psalm-dropdown { border-top: 1px solid var(--border); margin: 1.2rem 0 0; }
+.psalm-dropdown summary {
+  font-family: var(--font-head);
+  font-weight: 500;
+  font-size: 1.02rem;
+  letter-spacing: 0.03em;
+  color: var(--h3-color);
+  text-transform: uppercase;
+  padding: 1.2rem 0 0.8rem;
+  cursor: pointer;
+  list-style: none;
+}
+.psalm-dropdown summary::-webkit-details-marker { display: none; }
+.psalm-dropdown summary::before {
+  content: '\25B8';
+  display: inline-block;
+  margin-right: 0.6rem;
+  color: var(--accent);
+  transition: transform 0.2s;
+}
+.psalm-dropdown[open] > summary::before { transform: rotate(90deg); }
+
 /* ---- Floating section-jump menu ---- */
 .jump-menu {
   position: fixed;
