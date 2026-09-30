@@ -1,7 +1,17 @@
 {{ define "main" }}
-<article class="book-wrapper">
+<article class="post-wrapper book-wrapper">
 
-  <div class="book-content-wrap">
+  {{/* Floating TOC - same sidebar as posts */}}
+  {{ if findRE "<li>" .TableOfContents 1 }}
+  <aside class="toc-sidebar">
+    <div class="toc-inner">
+      <h3 class="toc-title">Contents</h3>
+      {{ .TableOfContents }}
+    </div>
+  </aside>
+  {{ end }}
+
+  <div class="post-content-wrap book-content-wrap">
 
     <header class="book-header">
       <div class="book-series-label">{{ .Params.series }}{{ with .Params.chapter }} &mdash; {{ . }}{{ end }}</div>

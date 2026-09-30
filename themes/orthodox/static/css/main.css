@@ -232,6 +232,9 @@ img { max-width: 100%; height: auto; }
   margin-right: 0.3rem;
 }
 
+/* --border is too dark to read as text on the dark background */
+html[data-theme="dark"] .meta-label { color: var(--muted); }
+
 /* ---- Pill badges ---- */
 .scripture-pills, .tag-pills {
   display: flex;
@@ -407,7 +410,7 @@ img { max-width: 100%; height: auto; }
 
 .post-body th {
   background: var(--heading);
-  color: #F7F3E9;
+  color: var(--bg); /* parchment on red (light), dark brown on gold (dark) */
   font-family: var(--font-head);
   font-size: 0.78rem;
   text-transform: uppercase;
@@ -604,7 +607,7 @@ img { max-width: 100%; height: auto; }
 
 /* ---- Book Section ---- */
 .book-wrapper {
-  max-width: var(--max-width);
+  max-width: none; /* room for the Contents sidebar; .book-content-wrap caps the text width */
 }
 
 .book-content-wrap {

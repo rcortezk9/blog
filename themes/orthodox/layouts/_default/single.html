@@ -2,7 +2,7 @@
 <article class="post-wrapper">
 
   {{/* Floating TOC - rendered server-side by Hugo */}}
-  {{ if .TableOfContents }}
+  {{ if findRE "<li>" .TableOfContents 1 }}
   <aside class="toc-sidebar">
     <div class="toc-inner">
       <h3 class="toc-title">Contents</h3>

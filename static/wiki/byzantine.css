@@ -61,6 +61,12 @@
   --byz-strong: #E59B8A;  /* bold: light Byzantine red */
 }
 
+/* Kiln's gray note meta ("4 min read", #tags) is too dim on dark parchment */
+:root[data-theme="dark"] :is(.note-meta-bar, .note-meta-item, .note-meta-tag),
+:root:not([data-theme="light"]) :is(.note-meta-bar, .note-meta-item, .note-meta-tag) {
+  color: #bfa27a;
+}
+
 /* ---- Headings: Cinzel display face throughout ---- */
 .content :is(h1, h2, h3, h4, h5, h6) {
   font-family: 'Cinzel', 'Trajan Pro', Georgia, serif;

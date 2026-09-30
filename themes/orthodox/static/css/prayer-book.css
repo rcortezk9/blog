@@ -156,13 +156,13 @@ html[data-theme="dark"] .prayer-page {
 }
 
 .jump-menu-toggle {
-  width: 3rem;
-  height: 3rem;
+  width: 3.6rem;
+  height: 3.6rem;
   border-radius: 50%;
   border: 1px solid var(--border);
   background: var(--bg);
   color: var(--heading);
-  font-size: 1.3rem;
+  font-size: 1.56rem;
   cursor: pointer;
   box-shadow: 0 2px 8px rgba(0,0,0,0.18);
   transition: color 0.2s, border-color 0.2s;
@@ -171,7 +171,7 @@ html[data-theme="dark"] .prayer-page {
 
 .jump-menu-panel {
   position: absolute;
-  bottom: 3.6rem;
+  bottom: 4.2rem;
   right: 0;
   width: 230px;
   max-height: 70vh;
