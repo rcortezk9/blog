@@ -107,14 +107,22 @@ What changes, when this teaching is taken seriously, is not abstract. It changes
 
 Return, finally, to Berlin, and to the line Ilyin wrote to men who had already lost: *"Let your sword be a prayer, and let your prayer be a sword."* Read now, after the whole argument, it is not a comfort offered cheaply to soldiers who needed absolution. It is a precise description of a specific, narrow, and demanding condition. The sword becomes a prayer only when it is purified before the struggle, held in self-possession within it, and returned afterward to repentance rather than pride — only, in other words, when it is one face of love rather than a stranger to it. Most of the time, for most of us, the sword we are actually asked to bear is smaller than Ilyin's — a hard word, a boundary held, a refusal to look away from something that should not be tolerated. The same discipline applies at that scale exactly as it does at his.
 
-Scripture gives the whole argument in eight words, tucked into a letter about humility and submission, easy to read past: *"Resist the devil, and he will flee from you"* (James 4:7). Resistance, not passivity, is what a soul submitted to God actually does. It was never a question of whether. It was always a question of by what means — offered, in the end, not as a burden laid on the reader from outside, but as an invitation into a harder and more honest kind of love than either pacifism or the crusade ever had to offer.
+Scripture gives the whole argument in nine words, tucked into a letter about humility and submission, easy to read past: *"Resist the devil, and he will flee from you"* (James 4:7). Resistance, not passivity, is what a soul submitted to God actually does. It was never a question of whether. It was always a question of by what means — offered, in the end, not as a burden laid on the reader from outside, but as an invitation into a harder and more honest kind of love than either pacifism or the crusade ever had to offer.
 
-## The Creed
+## Ilyin's Three Principles
 
-Everything above compresses further still, into a single confessional arc meant to be held in the mind at once rather than argued point by point. The "I hold" here voices the philosophy's own claims, distilled from Ilyin's full argument — not a personal creed recited apart from it.
+Here the whole argument is compressed into three principles, voiced as Ilyin himself would state them.
 
-> I hold that evil is no abstraction, but a real spiritual force that besieges the soul from within; that good and evil dwell nowhere in matter, but only in the psycho-spiritual world of the person; and that good is spiritualized love, while evil is anti-spiritual hostility, hatred severed from God.
->
-> And I hold that no honest soul can wholly cease to resist evil, for to cease is not neutrality but consent; that the true question is never whether evil is to be resisted, but by what means; that love itself has a negative face, a righteous "no" that is no less love than its tender "yes"; and that all people are bound together in good and evil, so that no evil is ever purely private, and whoever turns away to save himself bears the guilt of complicity.
->
-> And I hold that force is a secondary and subordinate means, never self-sufficient, meaningful only within a whole order of love; that both extremes are false — the sword's absolute prohibition, and its absolute sanctification as holy; that where force is truly necessary it is not merely a right but a duty; that the one who wields it rightly is not righteous, but he is right; that the sword demands the cleansing of the soul, before, within, and after the struggle; and that, borne in purity and offered to God's work, the sword itself becomes a fiery prayer.
+### On the Nature of Evil
+
+> I hold that evil is no abstraction, but a real power that besieges the soul from within, and that the soul is made to be a fortress against it, walled by conscience, shame, duty, and the love of God; that good and evil reside not in matter nor in the outward shape of any act, but in the heart that animates it; and that good is love turned toward God and filled with His fullness, while evil is hostility severed from Him.
+
+### On the Duty to Resist
+
+> And I hold that no honest soul can wholly cease to resist evil, for to cease is not neutrality but consent; that the true question is never whether evil is to be resisted, but by what means; that love has a stern face as well as a tender one, as Christ showed with the cords in the temple, and that its righteous "no" is no less love than its "yes"; and that all are bound together in good and evil, so that whoever turns from his neighbor's harm to keep his own hands clean bears the guilt of complicity.
+
+### On the Use of Force
+
+> And I hold that force is the last and lowest means, never self-sufficient, powerless to compel love, meaningful only within a whole order of love, and warranted only for what one would rightly die for; that both extremes are false, the sword forbidden absolutely and the sword made holy; that where force is truly necessary it is not merely a right but a duty; that the one who wields it rightly is not righteous, but he is right, taking upon himself an unrighteousness he must still answer for; that the warrior needs the monk, and the sword demands the cleansing of the soul before, within, and after the struggle; and that only when so purified, and returned to God in repentance, does the sword become a fiery prayer.
+
+*Updated October 2026: the closing summary was revised and retitled.*
